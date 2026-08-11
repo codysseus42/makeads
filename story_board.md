@@ -13,20 +13,23 @@
 
 # 사용 도구 목록
 
-| 용도 | 도구명 | 생성방식 | 선정 이유 | 대체도구|
+# 사용 도구 목록
+
+| 용도 | 도구명 | 생성방식 | 선정 이유 | 대체도구 |
 |------|--------|------|-----------|------|
-| 기획,음성파일 추출 | Claude | text to text | 지시 이행·추론 능력이 우수하여 아이디어 구체화와 프롬프트 반복 개선에 활용,음성파일  | chatgpt |
-| 이미지(생성) | Midjourney | text to image | 크리에이티브 업계 표준. ow등 다양한 파라메터를 통한 일관성 유지|pika|
-| 이미지(정밀이미지생성,편집/합성)1 | Gemini(mac,ios앱) |text to image(로고 ,제품)| 이해 기반 편집 — 로고-제품 생성과 합성 일괄 처리에 유리 | chatgpt |
-| 이미지(편집/합성)1 | Gemini |text to image(로고 ,제품), image+text to image | 이해 기반 편집 — 로고-제품 생성과 합성, 이미지 편집 | chatgpt|
-| 이미지(편집/합성)3 | Claude | image+text to image | 로고 크롭 등 별도의 마커가 없어서 유리 | |
-| 영상 | Kling(웹,mac 웹앱) | image to video | I2V 변환에서 temporal stability가 뛰어남 |  |
-| 보이스생성 | ElevenLabs | text to voice |  | |
-| 나레이션/대사1 | ElevenLabs | tts | 감정 표현력과 자연스러운 톤 | |
-| 나레이션/대사2(캐릭터 대사) | Kling | imnage + text to video | 자체 생성 영상에 최적합한 립싱크 | |
-| 나레이션/대사3 | ElevenLabs | voice change(audio to audio) | 보이스 변환 능력 | |
-| 효과음 | ElevenLabs | tts | 음성 분야 높은 위상,충분한 무료크레딧 | |
-| 음악 | Suno | text to music | 음악생성 AI 중 보편성 최고 | |
+| 기획, 음성파일 추출 | Claude | text to text | 지시 이행·추론 능력이 우수하여 아이디어 구체화와 프롬프트 반복 개선에 활용 | ChatGPT, Gemini |
+| 이미지(생성) | Midjourney | text to image | 크리에이티브 업계 표준. ow 등 다양한 파라메터를 통한 일관성 유지 | Ideogram, Adobe Firefly, Leonardo AI |
+| 이미지(정밀 생성·합성)1 | Gemini (mac/ios앱) | text to image (로고, 제품) | 이해 기반 편집 — 로고-제품 생성과 합성 일괄 처리에 유리 | ChatGPT(GPT Image), Ideogram |
+| 이미지(편집/합성)2 | Gemini | image+text to image | 이해 기반 편집 — 로고-제품 합성, 이미지 편집 | ChatGPT, Adobe Firefly(생성형 채우기) |
+| 이미지(편집/합성)3 | Claude | image+text to image | 로고 크롭 등 별도의 마커가 없어서 유리 | Photopea, GIMP |
+| 영상 | Kling (웹/mac) | image to video | I2V 변환에서 temporal stability가 뛰어남 | Runway Gen-3, Luma Dream Machine, Hailuo(MiniMax) |
+| 보이스 생성 | ElevenLabs | voice design | 캐릭터 보이스를 텍스트 서술로 직접 설계 가능 | Typecast, Supertone |
+| 나레이션/대사1 | ElevenLabs | tts | 감정 표현력과 자연스러운 톤 | Typecast, Supertone, Google Cloud TTS |
+| 나레이션/대사2 (캐릭터 대사) | Kling | image+text to video | 자체 생성 영상에 최적합한 립싱크 | HeyGen, Hedra, Runway Act-One |
+| 나레이션/대사3 | ElevenLabs | voice change (audio to audio) | 원본 억양·타이밍 유지한 목소리 변환 | Respeecher, Supertone Shift |
+| 효과음 | ElevenLabs | text to sound effect | 음성 분야 높은 위상, 충분한 무료크레딧 | Stable Audio, Freesound(비AI) |
+| 음악 | Suno | text to music | 음악생성 AI 중 보편성 최고 | Udio, Stable Audio, Mubert |
+| 영상 편집 | CapCut (무료) | 편집 | 컷 편집·오디오 믹싱·자막 통합 처리 | DaVinci Resolve, Adobe Premiere |
 
 ---
 
@@ -251,13 +254,7 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 - **효과음**: 음료 따르는 소리
 - **사용 도구**: MJ(구도) → Gemini(캔 합성) → Kling
 - **이미지 프롬프트**:
-```
-photorealistic close-up shot, a human hand tilting a slim beverage can pouring liquid into a ceramic pet bowl on the floor, warm golden afternoon light, shallow depth of field, kitchen floor background softly blurred, cinematic advertising photography, shot on 85mm lens --ar 16:9 --style raw --stylize 120
-```
-- **Gemini 합성 프롬프트** (위 결과 + catnipcan.png 첨부):
-```
-Replace the can in this image with the attached can. Match the hand's grip, tilt angle, lighting, and shadows. Keep the attached can's label, logo, and text exactly as in the reference image, fully legible and facing the camera.
-```
+
 - **비디오 프롬프트**: `liquid pours steadily from the can into the bowl, hand remains steady, cat's face enters frame from the side watching, minimal camera movement`
 - **출력 결과 요약**:
 - **결과 파일명**:
