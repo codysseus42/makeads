@@ -208,16 +208,22 @@ photorealistic candid living room scene, American family of three relaxing on a 
 
 ### 수정프롬프트
 ```
-photorealistic candid living room scene, American family of three relaxing on a beige sofa, low wooden coffee table in front of them, mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, father on the right drinking from a white ceramic mug, young boy in the middle tilting a red soda can up to drink, all three looking away from the camera in different directions, unposed natural moment, medium shot filling the frame, warm golden afternoon light through the window, cinematic advertising photography, shot on 50mm lens --ar 16:9 --raw --ow 400 --stylize 120
+
+photorealistic candid living room scene, American family of three relaxing on a long beige sectional sofa that extends to the right side of the frame, low wooden coffee table running parallel along the full width of the frame, completely bare polished tabletop with nothing placed on it, empty sofa seat and empty table space to the right of the father, mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, young boy with shaggy brown hair and freckles in the middle tilting a red soda can up to his mouth drinking, father on the right drinking from a white ceramic mug, each person holding exactly one drink and nothing else, all three looking away from the camera in different directions, unposed natural moment, wide medium shot, warm golden afternoon light through the window, cinematic advertising photography, shot on 50mm lens
+--ar 16:9 
+--raw 
+--ow 400 
+--stylize 120 
+
 ``` 
-결과 요약:희망하는 음료를 마시는 3가족의 이미지이지만 아이 음료수의 로고가 후에 편집 일관성에 영향을 줄수 있음
+결과 요약:희망하는 음료를 마시는 가족의 이미지이지만 아이 음료수의 로고가 후에 편집 일관성에 영향을 줄수 있음
 
 파라메터: ar 3:2  raw  stylize 120 weird 0 ow 400
 
 결과 파일명: asset_img_family_01_02.png
 ![scene_img_family_02](./scene_img/scene_img_family_02.png)
 
-이후 위의 이미지 제미나이를 통해 아동이 가진 캔의 로고를 제거 하였습니다.
+이후 위의 이미지 제미나이를 통해 아동이 가진 캔의 로고를 제거
 
 결과 요약 : 영상제작에 쓰일 수 있는 가족이 음료를 공유하는 장면 로고도 제거
 
