@@ -139,7 +139,7 @@ An animated cartoon character voice for a family advertisement, high-pitched and
 playful and expressive, curious and a little plaintive, gentle and small in scale, warm cartoon timbre with a soft whine at the end of phrases
 ```
 
-출력 결과: 
+출력 결과: 고양이 립싱크에 쓰일 귀여운 캐릭터 목소리
 
 ## 효과음
 
@@ -257,7 +257,7 @@ photorealistic candid living room scene, American family of three relaxing on a 
 ![scene_img_family_02_01](./asset_img/scene_img_family_02_01.png)
 
 - **비디오 프롬프트**: `each family member sips their drink naturally, subtle head and hand movements, warm light, static camera`
-- **출력 결과 요약**:
+- **출력 결과 요약**: 
 - **결과 파일명**:
 
 ## 씬 2 (문제 — 고양이 등장 나는? )
@@ -301,46 +301,9 @@ Replace the can in this image with the attached can. Match the hand's grip, tilt
 ## 씬 4 (브랜드 로고)
 - **길이**: 1초
 - **목표 메시지**: 브랜드 각인
-- **화면 구성**: catnipcan.png 정면 히어로샷 + toCatter  재품명 + 캐치프레이즈 "cat together"
+- **화면 구성**: 따르던 씬에서 카메라 이동 이후 로고 표시
 - **나레이션**: "toCatter — cat together"
-- **효과음**: 로고 사운드
-- **사용 도구**: 기존 에셋 재사용, CapCut에서 텍스트 조립 (신규 생성 없음)
+- **사용 도구**:
 - **결과 파일명**: catnipcan.png
 
 ---
-
-# 오디오
-
-- **나레이션 (ElevenLabs)**: "엄마도, 아빠도, 아들도." / "나는?" / "가족이니까." / "toCatter — cat together"
-  - "나는?"은 다른 보이스(더 높고 어린 톤)로 분리해야 고양이 목소리로 읽힘
-- **음악 (Suno)**: 10초 트랙. 씬 2에서 잦아들고 씬 3에서 다시 올라오는 구조
-- **효과음**: 캔 따는 소리, 음료 따르는 소리
-
----
-
-# 브랜드 인지 구간 체크
-
-- 씬 3 (3초, 캔 라벨 노출) + 씬 4 (2초, 로고) = **5초**
-- 요건("마지막 3~5초 브랜드 인지") 충족
-
----
-
-# 예비 컷 (분량 부족 시)
-
-씬 1과 씬 2 사이, 또는 씬 2와 씬 3 사이에 삽입 가능:
-
-- **편의점 컷 (2초)**: 확보 완료 에셋(Gemini_Generated_Image_31zx) 사용. 고양이가 진열대를 올려다보는 컷
-- 삽입 시 씬 1을 3초→2초로 줄여 총 10초 유지
-- 단, 4컷 구조가 이미 완결되어 있으므로 **분량이 실제로 부족할 때만** 추가
-
----
-
-# 남은 작업
-
-1. 씬 1 이미지 생성 (MJ + cref 가족)
-2. 씬 2 이미지 생성 (MJ/Gemini + oref 고양이)
-3. 씬 3 이미지 생성 (MJ) → Gemini 캔 합성
-4. 3개 씬 Kling 변환
-5. ElevenLabs 나레이션 4줄
-6. Suno 10초 트랙
-7. CapCut 조립 + 씬 4 텍스트 + 색보정
