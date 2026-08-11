@@ -108,7 +108,7 @@ Apply the attached logo onto the upper label area of this can. Keep the can's sh
 
 결과 파일명: asset_img_product_01_01.png
 
-![asset_img_logo_01](./asset_img/asset_img_product_01_01.pns)
+![asset_img_product_01_01](./asset_img/asset_img_product_01_01.png)
 
 출력 결과: 로고가 잘 인쇄된 캔
 
