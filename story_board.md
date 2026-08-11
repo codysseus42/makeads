@@ -202,9 +202,9 @@ photorealistic candid living room scene, American family of three relaxing on a 
 
 아동 캐릭터와의 유사성이 떨어지는 것 같아서 유사성과 관련된 파라미터인 ow를 표준적인 범위 안에서 상향 하였습니다.
 
-![scne_img_family_01_01](./scene_img/scene_img_family_01.png)
+![asset_img_family_01](./scene_img/scene_img_family_01.png)
 
-결과 파일명: asset_img_family_01_01.png
+결과 파일명: asset_img_family_01.png
 
 ### 수정프롬프트
 ```
