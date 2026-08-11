@@ -143,44 +143,6 @@ playful and expressive, curious and a little plaintive, gentle and small in scal
 
 출력 결과: 고양이 립싱크에 쓰일 귀여운 캐릭터 목소리
 
-## 효과음
-
-****
-
-**고양이 울음 소리**
-
-```
-soft warm meow
-```
-결과 파일명: [scene_snd_cat_01.wav](./scene_snd/scene_snd_cat_01.wav)
-
-출력 결과:고양이 등장을 암시하는 귀여운 야옹소리
-
-**빨리 돌리는 소리**
-```
-sound that can be heard by speaker when disk scratch by dj
-```
-결과 파일명: [scene_snd_disk_02.wav](./scene_snd/scene_snd_disk_02.wav)
-
-출력 결과 요약:고양이 장면에 유머를 더해줄릴을 빨리돌리는 것과 같은 소리
-
-**캔안의 음료가 찰랑 거리는 소리**
-```
-sound that can be heard by speaker when disk scratch by dj
-```
-결과 파일명: [scene_snd_fiz_01.wav](./scene_snd/scene_snd_fiz_01.wav)
-
-출력 결과:음료를 따르기 전 캔안의 음료가 찰랑거리는 소리
-
-**캔안의 음료가 찰랑 거리는 소리**
-```
-sound that can be heard by speaker when disk scratch by dj
-```
-결과 파일명: [scene_snd_pour_01.wav](./scene_snd/scene_snd_pour_01.wav)
-
-출력 결과:음료를 따를 때 나는 소리
-
-
 ## bgm
 
 도구:suno
@@ -311,3 +273,37 @@ Replace the can in this image with the attached can. Match the hand's grip, tilt
 - **결과 파일명**: catnipcan.png
 
 ---
+## 효과음
+
+**고양이 울음 소리**
+
+```
+soft warm meow
+```
+결과 파일명: [scene_snd_cat_01.wav](./scene_snd/scene_snd_cat_01.wav)
+
+출력 결과:고양이 등장을 암시하는 귀여운 야옹소리
+
+**빨리 돌리는 소리**
+```
+sound that can be heard by speaker when disk scratch by dj
+```
+결과 파일명: [scene_snd_disk_02.wav](./scene_snd/scene_snd_disk_02.wav)
+
+출력 결과 요약:고양이 장면에 유머를 더해줄릴을 빨리돌리는 것과 같은 소리
+
+**캔안의 음료가 찰랑 거리는 소리**
+```
+sound that can be heard by speaker when disk scratch by dj
+```
+결과 파일명: [scene_snd_fiz_01.wav](./scene_snd/scene_snd_fiz_01.wav)
+
+출력 결과:음료를 따르기 전 캔안의 음료가 찰랑거리는 소리
+
+**캔안의 음료가 찰랑 거리는 소리**
+```
+sound that can be heard by speaker when disk scratch by dj
+```
+결과 파일명: [scene_snd_pour_01.wav](./scene_snd/scene_snd_pour_01.wav)
+
+출력 결과:음료를 따를 때 나는 소리
