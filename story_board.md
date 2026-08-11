@@ -15,11 +15,11 @@
 
 | 용도 | 도구명 | 생성방식 | 선정 이유 | 대체도구|
 |------|--------|------|-----------|------|
-| 기획 | Claude | text to text | 지시 이행·추론 능력이 우수하여 아이디어 구체화와 프롬프트 반복 개선에 활용 | chatgpt |
+| 기획,음성파일 추출 | Claude | text to text | 지시 이행·추론 능력이 우수하여 아이디어 구체화와 프롬프트 반복 개선에 활용,음성파일  | chatgpt |
 | 이미지(생성) | Midjourney | text to image | 크리에이티브 업계 표준. ow등 다양한 파라메터를 통한 일관성 유지|pika|
 | 이미지(정밀이미지생성,편집/합성)1 | Gemini(mac,ios앱) |text to image(로고 ,제품)| 이해 기반 편집 — 로고-제품 생성과 합성 일괄 처리에 유리 | chatgpt |
 | 이미지(편집/합성)1 | Gemini |text to image(로고 ,제품), image+text to image | 이해 기반 편집 — 로고-제품 생성과 합성, 이미지 편집 | chatgpt|
-| 이미지(편집/합성)3 | Claude | image+text to image | 로고 크롭 등 | firefly |
+| 이미지(편집/합성)3 | Claude | image+text to image | 로고 크롭 등 별도의 마커가 없어서 유리 | |
 | 영상 | Kling(웹,mac 웹앱) | image to video | I2V 변환에서 temporal stability가 뛰어남 |  |
 | 보이스생성 | ElevenLabs | text to voice |  | |
 | 나레이션/대사1 | ElevenLabs | tts | 감정 표현력과 자연스러운 톤 | |
@@ -30,11 +30,13 @@
 
 ---
 
+## 결과 파일명 기준
+
+  asset or scene_종류_설명_원본시도번호_수정번호
+
+
 # 에셋
 
-## 에셋 결과 파일명 기준
-
-  asset_종류(snd,img,vid)_설명_원본시도번호_수정번호
 
 ## 고양이
 
@@ -204,7 +206,7 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 
 **아크**: 가족은 각자 마신다(3s) → 고양이만 빠져 있다(2s) → 그 자리를 채운다(3s) → 브랜드(2s)
 
-![scene_img_family_02_01](./asset_img/scene_img_family_02_01.png)
+![scene_img_family_02_01](./scene_img/scene_img_family_02_01.png)
 
 ## 씬 1 (일상 — 가족들이 함께 음료를 마신다)
 - **길이**: 3초
@@ -235,7 +237,7 @@ photorealistic candid living room scene, American family of three relaxing on a 
 
 아동 캐릭터와의 유사성이 떨어지는 것 같아서 유사성과 관련된 파라미터인 ow를 표준적인 범위 안에서 상향 하였습니다.
 
-![scne_img_family_01_01](./asset_img/scene_img_family_01.png)
+![scne_img_family_01_01](./scene_img/scene_img_family_01.png)
 
 결과 파일명: asset_img_family_01_01.png
 
@@ -248,7 +250,7 @@ photorealistic candid living room scene, American family of three relaxing on a 
 파라메터: ar 3:2  raw  stylize 120 weird 0 ow 400
 
 결과 파일명: asset_img_family_01_02.png
-![scene_img_family_02](./asset_img/scene_img_family_02.png)
+![scene_img_family_02](./scene_img/scene_img_family_02.png)
 
 이후 위의 이미지 제미나이를 통해 아동이 가진 캔의 로고를 제거 하였습니다.
 
@@ -256,7 +258,7 @@ photorealistic candid living room scene, American family of three relaxing on a 
 
 결과 파일명: scene_img_family_02_01.png
 
-![scene_img_family_02_01](./asset_img/scene_img_family_02_01.png)
+![scene_img_family_02_01](./scene_ims/scene_img_family_02_01.png)
 
 - **비디오 프롬프트**: `each family member sips their drink naturally, subtle head and hand movements, warm light, static camera`
 - **출력 결과 요약**: 
