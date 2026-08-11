@@ -181,6 +181,8 @@ sound that can be heard by speaker when disk scratch by dj
 
 ## bgm
 
+도구:suno
+
 **styles**
 
 ```
