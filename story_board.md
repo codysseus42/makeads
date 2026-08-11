@@ -258,7 +258,7 @@ photorealistic candid living room scene, American family of three relaxing on a 
 
 결과 파일명: scene_img_family_02_01.png
 
-![scene_img_family_02_01](./scene_ims/scene_img_family_02_01.png)
+![scene_img_family_02_01](./scene_img/scene_img_family_02_01.png)
 
 - **비디오 프롬프트**: `each family member sips their drink naturally, subtle head and hand movements, warm light, static camera`
 - **출력 결과 요약**: 
