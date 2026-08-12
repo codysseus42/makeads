@@ -184,7 +184,7 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
   -비디오:kling(영상생성)
   -나레이션/대사: 가족들이 모이면 모두 좋아하는 음료수를 함께 즐기죠
   -오디오:Suno(bgm)
-  결과 파일명: scene_img_family_02_01/asset_bgm_01.mp3/
+  **결과 파일명:** scene_img_family_02_01.png/asset_bgm_01.mp3/
 - **이미지 프롬프트**:
 ### 프롬프트
 
@@ -235,6 +235,8 @@ photorealistic candid living room scene, American family of three relaxing on a 
 - **출력 결과 요약**: 
 - **결과 파일명**:
 
+![scene_img_fmaily_02_08](./scene_img/scene_img_fmaily_02_08.png)
+
 ## 씬 2 (문제 — 고양이 등장 나는? )
 - **길이**: 2초
 - **목표 메시지**: 소외의 순간. 이 광고의 감정 코어
@@ -251,7 +253,9 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 - **출력 결과 요약**:
 - **결과 파일명**:
 
+![scene_img_fmaily_02_09](./scene_img/scene_img_fmaily_02_09.png)
 
+![scene_img_fmaily_02_09](./scene_img/scene_img_fmaily_02_09.png)
 ## 씬 3 (해결 — 따라준다)
 - **길이**: 3초
 - **목표 메시지**:제품이 등장하고 문제를 해결 제품의 소요 가치를 전달한다.
@@ -260,6 +264,44 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 - **효과음**: 음료 따르는 소리
 - **사용 도구**: MJ(구도) → Gemini(캔 합성) → Kling
 - **이미지 프롬프트**:
+## 편집프롬프트 1
+```
+....
+
+
+![scene_img_family_02_05](./scene_img/scene_img_family_02_05.png)
+
+scene_img_family_02_05 이미지에서 시작했습니다.
+
+Edit this image only. Zoom in on the wooden coffee table so it fills the frame, showing the three drinks from a close, low angle. The family and the cat are visible only as a soft blur in the background.
+
+The tall glass contains dark brown iced coffee, the color of black coffee with only a small amount of milk, filled to about half the glass with ice cubes visible above the liquid line. Keep this exact color and level — do not make it lighter or fuller.
+
+The red can and the white ceramic mug stay exactly as they are.
+
+Add a white ceramic pet bowl on the table to the left of the three drinks, so all four containers are lined up in a row. Keep the warm golden lighting and the 16:9 aspect ratio.
+```
+![scene_img_fmaily_02_08](./scene_img/scene_img_fmaily_02_08.png)
+이후 claude로 제미나이 로고 크롭
+![scene_img_fmaily_02_09](./scene_img/scene_img_fmaily_02_09.png)
+
+
+
+asset_img_product_01_01.png
+
+![asset_img_product_01_01](./asset_img/asset_img_product_01_01.png)
+와 함께
+```
+...
+Edit the image. Zoom in tightly on the white pet bowl so it fills the lower portion of the frame. The three other drinks are no longer in the shot — only the pet bowl remains on the wooden table. The background is a smooth warm blur with no people, furniture, or other objects visible.
+
+A bare human hand enters the frame from the right side, holding the attached can tilted downward, pouring a stream of pale green liquid into the bowl. The pale green liquid collects in the bowl. Only the hand and wrist are visible — no sleeve, no clothing, no arm beyond the wrist.
+
+The attached can must keep its label, cat logo, "toCatter" text, and "cat together" text exactly as in the reference image — fully legible, in sharp focus, and facing the camera. The hand grips the can low on the body so it does not cover the logo or the text.
+
+Keep the wooden table surface, the warm golden lighting, and the 16:9 aspect ratio.
+
+```
 
 - **비디오 프롬프트**: `liquid pours steadily from the can into the bowl, hand remains steady, cat's face enters frame from the side watching, minimal camera movement`
 - **출력 결과 요약**:
