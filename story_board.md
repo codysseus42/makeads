@@ -280,7 +280,7 @@ The red can and the white ceramic mug stay exactly as they are.
 
 Add a white ceramic pet bowl on the table to the left of the three drinks, so all four containers are lined up in a row. Keep the warm golden lighting and the 16:9 aspect ratio.
 ```
-![scene_img_familly_02_09](./scene_img/scene_img_familly_02_09.png)
+![scene_img_familly_02_09](./scene_img/scene_img_family_02_09.png)
 이후 claude로 제미나이 로고 크롭
 ![scene_img_family_0_10](./scene_img/scene_img_family_0_10.png)
 
