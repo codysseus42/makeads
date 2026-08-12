@@ -265,9 +265,10 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 - **사용 도구**: MJ(구도) → Gemini(캔 합성) → Kling
 - **이미지 프롬프트**:
 ## 편집프롬프트 1
-scene_img_family_02_05.png 를 편집하였습니다.
 
-![scene_img_family_02_05](./scene_img/scene_img_family_02_05.png)
+scene_img_family_02_06.png 를 편집하였습니다.
+
+![scene_img_family_02_06](./scene_img/scene_img_family_02_06.png)
 ```
 ....
 
@@ -283,7 +284,7 @@ Add a white ceramic pet bowl on the table to the left of the three drinks, so al
 이후 claude로 제미나이 로고 크롭
 ![scene_img_fmaily_02_09](./scene_img/scene_img_family_02_09.png)
 
-
+## 편집프롬프트 2
 
 asset_img_product_01_01.png를 편집하였습니다.
 
