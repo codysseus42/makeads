@@ -265,13 +265,11 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 - **사용 도구**: MJ(구도) → Gemini(캔 합성) → Kling
 - **이미지 프롬프트**:
 ## 편집프롬프트 1
-```
-....
-
+scene_img_family_02_05.png 를 편집하였습니다.
 
 ![scene_img_family_02_05](./scene_img/scene_img_family_02_05.png)
-
-scene_img_family_02_05 이미지에서 시작했습니다.
+```
+....
 
 Edit this image only. Zoom in on the wooden coffee table so it fills the frame, showing the three drinks from a close, low angle. The family and the cat are visible only as a soft blur in the background.
 
@@ -281,16 +279,15 @@ The red can and the white ceramic mug stay exactly as they are.
 
 Add a white ceramic pet bowl on the table to the left of the three drinks, so all four containers are lined up in a row. Keep the warm golden lighting and the 16:9 aspect ratio.
 ```
-![scene_img_fmaily_02_08](./scene_img/scene_img_fmaily_02_08.png)
+![scene_img_fmaily_02_08](./scene_img/scene_img_familly_02_08.png)
 이후 claude로 제미나이 로고 크롭
-![scene_img_fmaily_02_09](./scene_img/scene_img_fmaily_02_09.png)
+![scene_img_fmaily_02_09](./scene_img/scene_img_family_02_09.png)
 
 
 
-asset_img_product_01_01.png
+asset_img_product_01_01.png를 편집하였습니다.
 
 ![asset_img_product_01_01](./asset_img/asset_img_product_01_01.png)
-와 함께
 ```
 ...
 Edit the image. Zoom in tightly on the white pet bowl so it fills the lower portion of the frame. The three other drinks are no longer in the shot — only the pet bowl remains on the wooden table. The background is a smooth warm blur with no people, furniture, or other objects visible.
