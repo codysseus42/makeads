@@ -253,9 +253,10 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 - **출력 결과 요약**:
 - **결과 파일명**:
 
-![scene_img_fmaily_02_09](./scene_img/scene_img_fmaily_02_09.png)
+![scene_img_fmaily_02_09](./scene_img/scene_img_family_02_09.png)
 
-![scene_img_fmaily_02_09](./scene_img/scene_img_fmaily_02_09.png)
+![scene_img_family_02_13](./asset_img/scene_img_family_02_13.png)
+
 ## 씬 3 (해결 — 따라준다)
 - **길이**: 3초
 - **목표 메시지**:제품이 등장하고 문제를 해결 제품의 소요 가치를 전달한다.
@@ -282,7 +283,7 @@ Add a white ceramic pet bowl on the table to the left of the three drinks, so al
 ```
 ![scene_img_familly_02_09](./scene_img/scene_img_family_02_09.png)
 이후 claude로 제미나이 로고 크롭
-![scene_img_family_0_10](./scene_img/scene_img_family_0_10.png)
+![scene_img_family_02_10](./scene_img/scene_img_family_02_10.png)
 
 ## 편집프롬프트 2
 
@@ -300,6 +301,21 @@ The attached can must keep its label, cat logo, "toCatter" text, and "cat togeth
 Keep the wooden table surface, the warm golden lighting, and the 16:9 aspect ratio.
 
 ```
+![scene_img_family_02_11](./asset_img/scene_img_family_02_11.png)
+```
+Edit this image only. Make these three changes:
+
+1. Zoom in closer so the white pet bowl fills more of the frame — the bowl should be the dominant element, larger and closer to the viewer.
+
+2. Show less of the arm. Only the fingers and the top of the hand gripping the can are visible — the wrist and forearm are outside the frame on the right edge.
+
+3. Change the table surface to dark reddish-brown polished wood, matching a rich mahogany tone.
+
+Keep the can's label, cat logo, "toCatter" text, and "cat together" text exactly as they are — fully legible, in sharp focus, and facing the camera. Keep the pale green liquid pouring into the bowl, the warm golden lighting, and the 16:9 aspect ratio.
+```
+![scene_img_family_02_12](./asset_img/scene_img_family_02_12.png)
+이후 claude를 통해서 로고 크롭
+![scene_img_family_02_13](./asset_img/scene_img_family_02_13.png)
 
 - **비디오 프롬프트**: `liquid pours steadily from the can into the bowl, hand remains steady, cat's face enters frame from the side watching, minimal camera movement`
 - **출력 결과 요약**:
