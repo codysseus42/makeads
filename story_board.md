@@ -23,7 +23,7 @@
 
 ---
 
-##편집
+## 편집
 
 CapCut을 이용하였으며, 불필요한 부분 음소거, 음성과 영상파일의 절단과 이어붙이기등의 기능만 이용하였고 기존소스에 새로운 요소를 넣지 않았습니다.
 
@@ -664,7 +664,7 @@ end: scene_img_family_02_13.png
 ![scene_img_family_02_13](./scene_img/scene_img_family_02_13.png)
 
 ```
-liquid pours steadily from the can into the bowl, hand remains steady, cat's face enters frame from the side watching, minimal camera movement
+The camera moves in smoothly toward the white pet bowl. A hand holding a slim can enters the frame from the upper right corner, already fully outside the frame before it appears, and moves diagonally down toward the bowl. The can is complete with its printed label from the very first moment it becomes visible at the frame edge. It tilts over the bowl and pours a stream of pale green liquid. Warm golden light.
 ```
 
 - **비디오 출력 결과 요약**: 음료수가 따라지는 장면 마지막에 제품(캔) 위에 로고 노출
