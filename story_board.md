@@ -166,7 +166,7 @@ Persona:narrator for humanistic documentary . Emotion:encouraging,smooth ,little
 this is voice for advertise environmentally friendly product
 ```
 
-### 캐릭터 보이스 - 고양이 목소리
+## 캐릭터 보이스 - 고양이 목소리
 
 도구:elevelabs
 
@@ -708,7 +708,7 @@ Claude를 이용하여 2초 짜리 음성을 7초로 늘리고
 
 **설정**:
 
-asset_voice_02
+[asset_voice_02](./story_board.md#캐릭터-보이스---고양이-목소리)
 
 음성 asset_voice_02
 
