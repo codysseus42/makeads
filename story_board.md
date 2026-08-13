@@ -83,7 +83,11 @@ CapCut을 이용하였으며, 불필요한 부분 음소거, 음성과 영상파
 
 ### 프롬프트
 ```
-hyperrealistic photograph of an anthropomorphic ragdoll cat standing upright on two legs, gray bicolor coat with soft gray markings on the head and ears, creamy white face blaze, chest, arms and paws in uniform solid cream white, long fluffy silky fur, striking blue eyes, pink nose, wearing blue denim overalls, alert curious expression looking at camera, natural relaxed posture with weight on one leg and one paw slightly raised, full body, plain light gray studio background, soft warm natural lighting, shot on 85mm lens, shallow depth of field, cinematic advertising photography --ar 3:4 --style raw --stylize 130 --weird 0
+hyperrealistic photograph of an anthropomorphic ragdoll cat standing upright on two legs, gray bicolor coat with soft gray markings on the head and ears, 
+creamy white face blaze, chest, arms and paws in uniform solid cream white, long fluffy silky fur, 
+striking blue eyes, pink nose, wearing blue denim overalls, alert curious expression looking at camera, natural relaxed posture with weight on one leg and one paw slightly raised,
+full body, plain light gray studio background, soft warm natural lighting, shot on 85mm lens, shallow depth of field, cinematic advertising photography
+ --ar 3:4 --style raw --stylize 130 --weird 0
 ```
 
 - --ar 3:4 : 씬이 아니라 캐릭터 시트이므로 세로 비율을 선택했습니다. 전신 직립 자세를
@@ -112,7 +116,11 @@ hyperrealistic photograph of an anthropomorphic ragdoll cat standing upright on 
 파라메터: ar 3:2  raw  stylize 120 weird 0
 
 ```
-photorealistic candid family portrait, American family of three in a bright modern living room, father in his late 30s wearing a casual navy sweater, mother in her mid 30s wearing a beige cardigan, 7 year old boy in a striped t-shirt, cinematic advertising photography, soft warm key light, shallow depth of field
+photorealistic candid family portrait, American family of three in a bright modern living room, 
+father in his late 30s wearing a casual navy sweater, 
+mother in her mid 30s wearing a beige cardigan, 
+7 year old boy in a striped t-shirt, 
+cinematic advertising photography, soft warm key light, shallow depth of field
 --ar 3:2  --raw  --stylize 120 
 ```
 
@@ -136,7 +144,10 @@ photorealistic candid family portrait, American family of three in a bright mode
 
 ### 프롬프트
 ```
-Minimal flat vector logo for a cat beverage brand. A single stylized cat head facing forward, geometric simplified shapes, pointed triangular ears, calm friendly closed-eye expression, bold solid silhouette with negative-space eyes. Below the mark, brand name "toCatter" in clean rounded sans-serif, and a smaller tagline "cat together" underneath. Two-color design: deep forest green mark on warm cream background. Centered, sharp edges, high contrast, no gradients, no photorealism, no extra text.
+Minimal flat vector logo for a cat beverage brand. 
+A single stylized cat head facing forward, geometric simplified shapes, pointed triangular ears, calm friendly closed-eye expression, bold solid silhouette with negative-space eyes. 
+Below the mark, brand name "toCatter" in clean rounded sans-serif, and a smaller tagline "cat together" underneath. Two-color design: deep forest green mark on warm cream background. 
+Centered, sharp edges, high contrast, no gradients, no photorealism, no extra text.
 ```
 
 이후 
@@ -156,8 +167,11 @@ claude로 제미나이 마크 크롭
 ### 프롬프트
 
 ```
-Photorealistic product shot of a slim 240ml aluminum beverage can, Korean botanical drink packaging style. Clean white and brushed silver base with a soft green accent band near the bottom. Detailed illustration of catnip leaves and small pale purple catnip flowers wrapping around the lower half. Vertical typography reading "toCatter" on the upper portion. Minimal retro herbal-beverage aesthetic. Clean white studio background, soft diffused lighting, subtle condensation droplets, centered composition, commercial product photography.
-프롬프트:Photorealistic product shot of a slim 240ml aluminum beverage can, Korean botanical drink packaging style. Clean white and brushed silver base with a soft green accent band near the bottom. Detailed illustration of catnip leaves and small pale purple catnip flowers wrapping around the lower half. Vertical typography reading "toCatter" on the upper portion. Minimal retro herbal-beverage aesthetic. Clean white studio background, soft diffused lighting, subtle condensation droplets, centered composition, commercial product photography. 
+Photorealistic product shot of a slim 240ml aluminum beverage can, Korean botanical drink packaging style. 
+Clean white and brushed silver base with a soft green accent band near the bottom. 
+Detailed illustration of catnip leaves and small pale purple catnip flowers wrapping around the lower half. 
+Vertical typography reading "toCatter" on the upper portion. Minimal retro herbal-beverage aesthetic. 
+Clean white studio background, soft diffused lighting, subtle condensation droplets, centered composition, commercial product photography.
 ```
 
 ### 편집 프롬프트
@@ -165,7 +179,8 @@ Photorealistic product shot of a slim 240ml aluminum beverage can, Korean botani
 ```
 로고와 제품은 같은 세션에서 생성 되었습니다.
 ... 
-Apply the attached logo onto the upper label area of this can. Keep the can's shape, lighting, reflections, and botanical illustration unchanged. The logo should follow the curvature of the can surface naturally and stay fully legible.
+Apply the attached logo onto the upper label area of this can. Keep the can's shape, lighting, reflections, and botanical illustration unchanged. 
+The logo should follow the curvature of the can surface naturally and stay fully legible.
 ```
 
 출력 결과: 로고가 잘 인쇄된 캔
@@ -254,7 +269,14 @@ asset_img_family_01.png를 기반으로 아래 프롬프트 입력 캐릭터 일
 파라메터: ar 16:9  raw  stylize 120  weird 0 ow 100
 
 ```
-photorealistic candid living room scene, American family of three relaxing on a beige sofa, low wooden coffee table in front of them, mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, father on the right drinking from a white ceramic mug, young boy in the middle tilting a red soda can up to drink, all three looking away from the camera in different directions, unposed natural moment, medium shot filling the frame, warm golden afternoon light through the window, cinematic advertising photography, shot on 50mm lens --ar 16:9  --raw  --ow 100  --stylize 120 
+photorealistic candid living room scene, American family of three relaxing on a beige sofa, low wooden coffee table in front of them, 
+mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, 
+father on the right drinking from a white ceramic mug, 
+young boy in the middle tilting a red soda can up to drink, 
+all three looking away from the camera in different directions, unposed natural moment, 
+medium shot filling the frame, warm golden afternoon light through the window, 
+cinematic advertising photography, shot on 50mm lens 
+--ar 16:9  --raw  --ow 100  --stylize 120 
 ```
 
 ![scene_img_family_01](./scene_img/scene_img_family_01.png)
@@ -280,7 +302,16 @@ photorealistic candid living room scene, American family of three relaxing on a 
 파라메터: ar 16:9  raw  stylize 120 weird 0 ow 400
 
 ```
-photorealistic candid living room scene, American family of three relaxing on a long beige sectional sofa that extends to the right side of the frame, low wooden coffee table running parallel along the full width of the frame, completely bare polished tabletop with nothing placed on it, empty sofa seat and empty table space to the right of the father, mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, young boy with shaggy brown hair and freckles in the middle tilting a red soda can up to his mouth drinking, father on the right drinking from a white ceramic mug, each person holding exactly one drink and nothing else, all three looking away from the camera in different directions, unposed natural moment, wide medium shot, warm golden afternoon light through the window, cinematic advertising photography, shot on 50mm lens
+photorealistic candid living room scene, American family of three relaxing on a long beige sectional sofa that extends to the right side of the frame, 
+low wooden coffee table running parallel along the full width of the frame, completely bare polished tabletop with nothing placed on it, 
+empty sofa seat and empty table space to the right of the father, 
+mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, 
+young boy with shaggy brown hair and freckles in the middle tilting a red soda can up to his mouth drinking, 
+father on the right drinking from a white ceramic mug, 
+each person holding exactly one drink and nothing else, 
+all three looking away from the camera in different directions, unposed natural moment, 
+wide medium shot, warm golden afternoon light through the window, 
+cinematic advertising photography, shot on 50mm lens
  --ar 16:9  --raw  --ow 400  --stylize 120 
 ``` 
 
@@ -407,7 +438,13 @@ scene_img_family_02_01.png에 asset_img_cat_01를 첨부하여 편집하였습�
 ```
 ....
 
-Create a new scene from this living room image that you just made. The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row. The family members have set their drinks down. Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. There is empty table space in front of the cat with nothing on it. Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. Match the warm golden afternoon lighting and add a soft shadow.
+Create a new scene from this living room image that you just made. 
+The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row.
+ The family members have set their drinks down. 
+ Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. 
+ There is empty table space in front of the cat with nothing on it. 
+ Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. 
+ Match the warm golden afternoon lighting and add a soft shadow.
 ```
 
 ![scene_img_family_02_02](./scene_img/scene_img_family_02_02.png)
@@ -415,14 +452,24 @@ Create a new scene from this living room image that you just made. The three dri
 ```
 Do it again I will give you all the sources. Cat is too small and have to sit next to family. And color of the woman’s drink has changed match it to the original.
 Now read the dirction carefully
-Create a new scene from this living room image that you just made. The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row. The family members have set their drinks down. Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. There is empty table space in front of the cat with nothing on it. Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. Match the warm golden afternoon lighting and add a soft shadow.
+Create a new scene from this living room image that you just made. The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row. 
+The family members have set their drinks down. 
+Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. 
+There is empty table space in front of the cat with nothing on it. 
+Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. 
+Match the warm golden afternoon lighting and add a soft shadow.
 ```
 ![scene_img_family_02_03](./scene_img/scene_img_family_02_03.png)
 
 ```
 Do it again I will give you all the sources. Cat is too small and have to sit next to family. And color of the woman’s drink has changed match it to the original.
 Now read the dirction carefully
-Create a new scene from this living room image that you just made. The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row. The family members have set their drinks down. Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. There is empty table space in front of the cat with nothing on it. Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. Match the warm golden afternoon lighting and add a soft shadow.
+Create a new scene from this living room image that you just made. 
+The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row. 
+The family members have set their drinks down. 
+Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. 
+There is empty table space in front of the cat with nothing on it. Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. 
+Match the warm golden afternoon lighting and add a soft shadow.
 ```
 ![scene_img_family_02_04](./scene_img/scene_img_family_02_04.png)
 
@@ -520,7 +567,12 @@ end: scene_img_family_02_08.png을 사용하였습니다.
 ![scene_img_family_02_08](./scene_img/scene_img_family_02_08.png)
 
 ```
-Only the camera moves. The frame gradually widens and more of the sofa on the left comes into view, bringing an anthropomorphic ragdoll cat in denim overalls into the shot. The cat is already sitting on the sofa beside the mother from the very first frame and stays completely still in the same spot the whole time. The family stay seated and still. The glass, the red can, and the white mug remain in their exact positions on the table. Everything in the scene is motionless and only the framing changes. Warm golden afternoon light.
+Only the camera moves. The frame gradually widens and more of the sofa on the left comes into view, bringing an anthropomorphic ragdoll cat in denim overalls into the shot.
+ The cat is already sitting on the sofa beside the mother from the very first frame and stays completely still in the same spot the whole time. 
+ The family stay seated and still. 
+ The glass, the red can, and the white mug remain in their exact positions on the table. 
+ Everything in the scene is motionless and only the framing changes. 
+ Warm golden afternoon light.
 ```
 
 - **비디오 출력 결과 요약**:줌아웃 하면서 자연스럽게 가족들과 함께 하지 못했던 고양이가 드러남
@@ -543,7 +595,9 @@ end: ![scene_img_family_02_08](./scene_img/scene_img_family_02_08.png)
 ```
 The camera moves in smoothly toward the cat.
 The cat tilts its head to one side with a questioning expression and says, "나는?" 
-The family stay seated and still. The glass, the red can, and the white mug stay exactly where they are on the table. Warm golden afternoon light.
+The family stay seated and still. 
+The glass, the red can, and the white mug stay exactly where they are on the table. 
+Warm golden afternoon light.
 ```
 
 - Native Audio on : 이 클립에서만 활성화했습니다. 립싱크는 오디오 생성이 있어야
@@ -589,13 +643,13 @@ scene_img_family_02_06.png 를 편집하였습니다.
 ```
 ....
 
-Edit this image only. Zoom in on the wooden coffee table so it fills the frame, showing the three drinks from a close, low angle. The family and the cat are visible only as a soft blur in the background.
-
-The tall glass contains dark brown iced coffee, the color of black coffee with only a small amount of milk, filled to about half the glass with ice cubes visible above the liquid line. Keep this exact color and level — do not make it lighter or fuller.
-
+Edit this image only. Zoom in on the wooden coffee table so it fills the frame, showing the three drinks from a close, low angle. 
+The family and the cat are visible only as a soft blur in the background.
+The tall glass contains dark brown iced coffee, the color of black coffee with only a small amount of milk, filled to about half the glass with ice cubes visible above the liquid line. 
+Keep this exact color and level — do not make it lighter or fuller.
 The red can and the white ceramic mug stay exactly as they are.
-
-Add a white ceramic pet bowl on the table to the left of the three drinks, so all four containers are lined up in a row. Keep the warm golden lighting and the 16:9 aspect ratio.
+Add a white ceramic pet bowl on the table to the left of the three drinks, so all four containers are lined up in a row. 
+Keep the warm golden lighting and the 16:9 aspect ratio.
 ```
 ![scene_img_familly_02_09](./scene_img/scene_img_family_02_09.png)
 
@@ -616,11 +670,15 @@ asset_img_product_01_01.png를 편집하였습니다.
 
 ```
 ...
-Edit the image. Zoom in tightly on the white pet bowl so it fills the lower portion of the frame. The three other drinks are no longer in the shot — only the pet bowl remains on the wooden table. The background is a smooth warm blur with no people, furniture, or other objects visible.
+Edit the image. Zoom in tightly on the white pet bowl so it fills the lower portion of the frame. 
+The three other drinks are no longer in the shot — only the pet bowl remains on the wooden table. 
+The background is a smooth warm blur with no people, furniture, or other objects visible.
 
-A bare human hand enters the frame from the right side, holding the attached can tilted downward, pouring a stream of pale green liquid into the bowl. The pale green liquid collects in the bowl. Only the hand and wrist are visible — no sleeve, no clothing, no arm beyond the wrist.
+A bare human hand enters the frame from the right side, holding the attached can tilted downward, pouring a stream of pale green liquid into the bowl. 
+The pale green liquid collects in the bowl. Only the hand and wrist are visible — no sleeve, no clothing, no arm beyond the wrist.
 
-The attached can must keep its label, cat logo, "toCatter" text, and "cat together" text exactly as in the reference image — fully legible, in sharp focus, and facing the camera. The hand grips the can low on the body so it does not cover the logo or the text.
+The attached can must keep its label, cat logo, "toCatter" text, and "cat together" text exactly as in the reference image — fully legible, in sharp focus, and facing the camera. 
+The hand grips the can low on the body so it does not cover the logo or the text.
 
 Keep the wooden table surface, the warm golden lighting, and the 16:9 aspect ratio.
 
@@ -637,7 +695,8 @@ Edit this image only. Make these three changes:
 
 3. Change the table surface to dark reddish-brown polished wood, matching a rich mahogany tone.
 
-Keep the can's label, cat logo, "toCatter" text, and "cat together" text exactly as they are — fully legible, in sharp focus, and facing the camera. Keep the pale green liquid pouring into the bowl, the warm golden lighting, and the 16:9 aspect ratio.
+Keep the can's label, cat logo, "toCatter" text, and "cat together" text exactly as they are — fully legible, in sharp focus, and facing the camera. 
+Keep the pale green liquid pouring into the bowl, the warm golden lighting, and the 16:9 aspect ratio.
 ```
 
 ![scene_img_family_02_12](./scene_img/scene_img_family_02_12.png)
@@ -664,7 +723,10 @@ end: scene_img_family_02_13.png
 ![scene_img_family_02_13](./scene_img/scene_img_family_02_13.png)
 
 ```
-The camera moves in smoothly toward the white pet bowl. A hand holding a slim can enters the frame from the upper right corner, already fully outside the frame before it appears, and moves diagonally down toward the bowl. The can is complete with its printed label from the very first moment it becomes visible at the frame edge. It tilts over the bowl and pours a stream of pale green liquid. Warm golden light.
+The camera moves in smoothly toward the white pet bowl. 
+A hand holding a slim can enters the frame from the upper right corner, already fully outside the frame before it appears, and moves diagonally down toward the bowl. 
+The can is complete with its printed label from the very first moment it becomes visible at the frame edge. 
+It tilts over the bowl and pours a stream of pale green liquid. Warm golden light.
 ```
 
 - **비디오 출력 결과 요약**: 음료수가 따라지는 장면 마지막에 제품(캔) 위에 로고 노출
@@ -702,7 +764,10 @@ end: asset_img_logo_01_01.png(마지막 로고 화면을 사용)
 ![asset_img_logo_01_01](./asset_img/asset_img_logo_01_01.png)
 
 ```
-`The camera tilts smoothly upward, away from the bowl and toward the plain cream-colored wall above. The logo is already printed on the wall from the very first moment it becomes visible at the frame edge, complete and sharp. Only the camera moves. Warm golden light.
+The camera tilts smoothly upward, away from the bowl and toward the plain cream-colored wall above. 
+The logo is already printed on the wall from the very first moment it becomes visible at the frame edge, complete and sharp.
+ Only the camera moves.
+ Warm golden light.
 ```
 
 - **비디오 출력 결과 요약**: 음료수가 따라지는 장면에서 자연스럽게 카메라가 올라가면서 마지막에 로고 노출
