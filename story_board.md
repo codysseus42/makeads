@@ -169,8 +169,8 @@ playful and expressive, curious and a little plaintive, gentle and small in scal
 
 ## bgm
 
-- **출력 결과 요약**: 출력 결과 요약:광고에 어울리는 경쾌한 컨트리풍의 음악 약 10초분량
-- **결과 파일명**: [asset_bgm_01.mp3](./asset_bgm/asset_bgm_01.mp3)
+**출력 결과 요약**: 출력 결과 요약:광고에 어울리는 경쾌한 컨트리풍의 음악 약 10초분량
+**결과 파일명**: [asset_bgm_01.mp3](./asset_bgm/asset_bgm_01.mp3)
 
 도구:suno
 
@@ -191,7 +191,7 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 # 스토리보드 (총 10초 / 4컷)
 
 ## 목적
-고양이용 음료를 함께하는 시간을 가족으로 더 가깝게 느낄수 있는 가치를 전달한다.
+고양이용 음료를 함께하는 시간을 공유함으로서 가족으로 더 가깝게 느낄수 있는 가치를 전달한다.
 
 ## 씬 1 (일상 — 가족들이 함께 음료를 마신다)
 
@@ -207,7 +207,7 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 	-비디오: kling
 	-나레이션/대사: elevenlabs
 	-오디오:suno(bgm)
-  **결과 파일명**: [scene_img_family_02_01.png](./story_board.md#수정프롬프트)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_family_01.wav](.story_board.md/#씬-1-일상--가족들이-함께-음료를-마신다)
+  **결과 파일명**: [scene_vid_scene1_01.mp4](./story_board.md#프롬프트1)/[scene_vid_scene1Link_01.mp4](./story_board.md#프롬프트2)/[scene_img_family_02_01.png](./story_board.md#수정프롬프트)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_family_01.wav](.story_board.md/#씬-1-일상--가족들이-함께-음료를-마신다)
 ### 이미지 프롬프트
 
 #### 프롬프트
@@ -216,7 +216,7 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 
 asset_img_family_01.png를 기반으로 아래 프롬프트 입력 ow를 도입하여 
 
-![asset_img_family_01](./scene_img/asset_img_family_01.png)
+![asset_img_family_01](./asset_img/asset_img_family_01.png)
 
 파라메터: ar 16:9  raw  stylize 120  weird 0 ow 100
 
@@ -276,7 +276,7 @@ end: 없음
 The family lower their drinks onto the table. The camera pans slightly to the right, cropping the mother's left arm at the edge of the frame. Then the camera pans back to the left and gradually widens, revealing an anthropomorphic ragdoll cat in denim overalls sitting on the sofa beside the mother. Smooth continuous camera movement, warm golden afternoon light.
 ```
 - **출력 결과 요약**:  가족들이 음료수를 마시는 장면부터 시작하여 내려놓는 장면이 담김
-- **결과 파일명**:![scene_vid_scene1_01.mp4](./scene_vid/scene_vid_scene1_01.mp4)
+- **결과 파일명**:[scene_vid_scene1_01.mp4](./scene_vid/scene_vid_scene1_01.mp4)
 
 #### 프롬프트2
 
