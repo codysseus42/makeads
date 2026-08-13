@@ -292,7 +292,7 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 	-나레이션/대사: elevenlabs
 	-오디오: suno(bgm),elevenlabs(효과음)
 - **출력(편집) 결과 요약**: 음료수가 등장하면서  따라지고 브랜드 로고가 
-- **결과 파일명**: [scene_vid_scene3_01.mp4.](./story_board.md#프롬프트-7)/[scene_img_fmaily_02_10.png](./story_board.md#편집프롬프트-1)/[scene_img_family_02_13.png](./story_board.md#편집프롬프트-2)/[scene_nar_catFamily_01.wav](./#씬-3-전환--해결제안--따라준다)/[scene_nar_tocatter_01.wav](./#씬-3-전환--해결제안--따라준다)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_snd_fiz_01.wav](./story_board.md#캔안의-음료가-찰랑-거리는-소리)/[scene_snd_pour_01.wav](./story_board.md#음료-따르는-소리)
+- **결과 파일명**: [scene_vid_scene3_01.mp4.](./story_board.md#프롬프트-7)/[scene_img_fmaily_02_10.png](./story_board.md#편집프롬프트-1)/[scene_img_family_02_13.png](./story_board.md#편집프롬프트-2)/[scene_nar_catFamily_01.wav](./story_board.md#씬-3-전환--해결제안--따라준다)/[scene_nar_tocatter_01.wav](./#씬-3-전환--해결제안--따라준다)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_snd_fiz_01.wav](./story_board.md#캔안의-음료가-찰랑-거리는-소리)/[scene_snd_pour_01.wav](./story_board.md#음료-따르는-소리)
 - **이미지 프롬프트**:
 ### 편집프롬프트 1
 
@@ -389,7 +389,7 @@ end: scene_img_family_02_13.png
 - **길이**: 1초
 - **목표 메시지**: 브랜드로고카드를 통해 브랜드(제품)명과 메이커를 최종적으로 각인시키면서 메이커이름도 나래이션으로 부각한다.
 - **화면 구성**: 따르던 씬 마지막프레임에서 카메라 위로 이동 이후 로고 표시
-- **나레이션**: "cat together"(캐릭터 asset_voice_02)(./scene_nar/scene_nar_cattogether_01.wav)
+- **나레이션**: ["cat together-캐릭터 asset_voice_02"](./scene_nar/scene_nar_cattogether_01.wav)
 - **사용 도구 및 목적**: 
 	-이미지: Gemini(로고 이미지 생성),Claude(크롭) - [에셋-로고](./story_board.md#로고) 참고
 	-비디오: kling
