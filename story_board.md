@@ -275,23 +275,23 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 
 ## 씬 3 (전환 ・ 해결/제안 — 따라준다)
 
-![scene_img_fmaily_02_09](./scene_img/scene_img_family_02_09.png)
+![scene_img_family_02_10](./scene_img/scene_img_family_02_10.png)
 
 ![scene_img_family_02_13](./scene_img/scene_img_family_02_13.png)
 
 
 - **길이**: 3초
-- **목표 메시지**:제품이 등장하고 문제를 해결  나레이션을 통해서 직접적으로 제품의 가치와 제품/브랜드명을 전달한다.
+- **목표 메시지**: 나레이션으로 제품명과 핵심메시지를 전달하면서 식탁위에 고양이의 물그릇과 음료를 참여 시킴으로서 문제를 해결하고 가족의 일원으로서 공유한다는 가치를 보여준다.
 - **화면 구성**: 장면전환 클로즈업 된 식탁위의 음료수용기들 고양이를 우한 물그릇이 같이 있음. 사람 손이 toCatter 캔을 기울여 고양이 물그릇에 따름. 프레임 안에 손·캔·그릇만 (캔 라벨이 정면으로 읽혀야 함). 로고색으로 화면 천천히 전환 핵심메시지 나레이션 전달.
-- **나레이션/대사**: "고양이도 가족이니까(중년 남성 asset_voice_01)".","투 캐터(중년 남성 asset_voice_01)"
+- **나레이션/대사**: "[고양이도 가족이니까 -중년 남성 asset_voice_01](./scene_nar/scene_nar_catFamily_01.wav).","[투 캐터 - 중년 남성 asset_voice_01](./scene_nar/scene_nar_tocatter_01.wav)"
 - **효과음**:bgm(asset_bgm_01.mp3) 다시 시작, 음료 찰랑 거리는 소리(scene_snd_fiz_01.wav), 음료 따르는 소리(scene_snd_pour_01.wav)
 - **사용 도구 및 목적**: 
 	-이미지: 제미나이(이미지 편집을 통해서 시작프레임,마지막 프레임 생성)
 	-비디오: kling(영상생성)
 	-나레이션/대사: elevenlabs
 	-오디오: suno(bgm),elevenlabs(효과음)
-- **출력(편집) 결과 요약**: 음료수가 등장하면서  
-- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-7)/[scene_img_fmaily_02_09](./story_board.md#편집프롬프트-1)/[scene_img_family_02_13](./story_board.md#편집프롬프트-2)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_snd_fiz_01.wav](./story_board.md#캔안의-음료가-찰랑-거리는-소리)/[scene_snd_pour_01.wav](./story_board.md#음료-따르는-소리)
+- **출력(편집) 결과 요약**: 음료수가 등장하면서  따라지고 브랜드 로고가 
+- **결과 파일명**: [scene_vid_scene3_01.mp4.](./story_board.md#프롬프트-7)/[scene_img_fmaily_02_10.png](./story_board.md#편집프롬프트-1)/[scene_img_family_02_13.png](./story_board.md#편집프롬프트-2)/[scene_nar_catFamily_01.wav](./#씬-3-전환--해결제안--따라준다)/[scene_nar_tocatter_01.wav](./#씬-3-전환--해결제안--따라준다)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_snd_fiz_01.wav](./story_board.md#캔안의-음료가-찰랑-거리는-소리)/[scene_snd_pour_01.wav](./story_board.md#음료-따르는-소리)
 - **이미지 프롬프트**:
 ### 편집프롬프트 1
 
@@ -318,7 +318,7 @@ Add a white ceramic pet bowl on the table to the left of the three drinks, so al
 ![scene_img_family_02_10](./scene_img/scene_img_family_02_10.png)
 
 - **이미지 출력 결과 요약**: 음료가 따라 지기전에 보여줄 뒷부분이 블러 처리된 용기의 나열을 이전 장면 마지막 프레임으로 부터의 연속성 있는 편집으로 출력
-- **이미지 결과 파일명**: [scene_img_family_02_10](./scene_img/scene_img_family_02_10.png)
+- **이미지 결과 파일명**: [scene_img_family_02_10.png](./scene_img/scene_img_family_02_10.png)
  
 ### 편집프롬프트 2
 
@@ -361,7 +361,7 @@ Keep the can's label, cat logo, "toCatter" text, and "cat together" text exactly
 ![scene_img_family_02_13](./scene_img/scene_img_family_02_13.png)
 
 - **이미지 출력 결과 요약**:  음료를 따르는 장면의 마지막 프레임을 기존장면으로 부터의 연속성 있는 편집으로 출력
-- **이미지 결과 파일명**: [scene_img_family_02_13](./scene_img/scene_img_family_02_13.png)
+- **이미지 결과 파일명**: [scene_img_family_02_13.png](./scene_img/scene_img_family_02_13.png)
 
 - **비디오 프롬프트**:  
 ### 프롬프트
@@ -378,24 +378,24 @@ end: scene_img_family_02_13.png
 
 `liquid pours steadily from the can into the bowl, hand remains steady, cat's face enters frame from the side watching, minimal camera movement`
 
-- **비디오 출력 결과 요약**: 음료수가 따라지는 장면 마지막에 로고 노출
-- **비디오 결과 파일명**: [scene_vid_scene3_02_13](./scene_vid/scene_vid_scene3_01.mp4)
+- **비디오 출력 결과 요약**: 음료수가 따라지는 장면 마지막에 ㅈㅔ품(캔) 위에 로고 노출
+- **비디오 결과 파일명**: [scene_vid_scene3_01.mp4](./scene_vid/scene_vid_scene3_01.mp4)
 
 ## 씬 4 (브랜드 로고)
 
 ![asset_img_logo_01](./asset_img/asset_img_logo_01.png)
 
 - **길이**: 1초
-- **목표 메시지**: 로고를 보여주어 브랜드 이미지와 메이커를 각인하고 메이커이름도 나래이션으로 부각
+- **목표 메시지**: 브랜드로고카드를 통해 브랜드(제품)명과 메이커를 최종적으로 각인시키면서 메이커이름도 나래이션으로 부각한다.
 - **화면 구성**: 따르던 씬 마지막프레임에서 카메라 위로 이동 이후 로고 표시
-- **나레이션**: "cat together"(캐릭터 asset_voice_02)
+- **나레이션**: "cat together"(캐릭터 asset_voice_02)(./scene_nar/scene_nar_cattogether_01.wav)
 - **사용 도구 및 목적**: 
 	-이미지: Gemini(로고 이미지 생성),Claude(크롭) - [에셋-로고](./story_board.md#로고) 참고
 	-비디오: kling
 	-나레이션/대사: elevenlabs
 	-오디오: suno(bgm)
 - **출력(편집) 결과 요약**: 이전 장면의 마지막 프레임에서 자연스러운 카메라 움직임으로 브랜드 로고가 출력되고 메이커 이름이  캐릭터 보이스로 전달됨
-- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-7)/[asset_img_logo_01](./story_board.md#로고),
+- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-8)/[asset_img_logo_01](./story_board.md#로고)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_cattogether_01.wav](./scene_nar/scene_nar_cattogether_01.wav)
 - **이미지 프롬프트**: [에셋-로고](./story_board.md#로고) 참고
 - **비디오 프롬프트**:  
 ### 프롬프트
@@ -413,7 +413,7 @@ end: asset_img_logo_01_01.png(마지막 로고 화면을 사용)
 `The camera tilts smoothly upward, away from the bowl and toward the plain cream-colored wall above. The logo is already printed on the wall from the very first moment it becomes visible at the frame edge, complete and sharp. Only the camera moves. Warm golden light.`
 
 - **출력 결과 요약**: 음료수가 따라지는 장면에서 자연스럽게 카메라가 올라가면서 마지막에 로고 노출
-- **결과 파일명**:[scene_vid_scene4_01](./scene_vid/scene_vid_scene4_01.mp4)
+- **결과 파일명**:[scene_vid_scene4_01.mp4](./scene_vid/scene_vid_scene4_01.mp4)
 
 ---
 
