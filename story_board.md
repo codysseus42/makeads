@@ -581,7 +581,7 @@ end: scene_img_family_02_13.png
 liquid pours steadily from the can into the bowl, hand remains steady, cat's face enters frame from the side watching, minimal camera movement
 ```
 
-- **비디오 출력 결과 요약**: 음료수가 따라지는 장면 마지막에 ㅈㅔ품(캔) 위에 로고 노출
+- **비디오 출력 결과 요약**: 음료수가 따라지는 장면 마지막에 제품(캔) 위에 로고 노출
 - **비디오 결과 파일명**: [scene_vid_scene3_01.mp4](./scene_vid/scene_vid_scene3_01.mp4)
 
 ## 씬 4 (브랜드 로고)
@@ -598,7 +598,7 @@ liquid pours steadily from the can into the bowl, hand remains steady, cat's fac
 	-나레이션/대사: elevenlabs
 	-오디오: suno(bgm)
 - **출력(편집) 결과 요약**: 이전 장면의 마지막 프레임에서 자연스러운 카메라 움직임으로 브랜드 로고가 출력되고 메이커 이름이  캐릭터 보이스로 전달됨
-- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-8)/[asset_img_logo_01.png](./story_board.md#로고)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_cattogether_01.wav](./story_board.md#씬-4-브랜드-로고)
+- **결과 파일명**: [scene_vid_scene4_01.mp4](./story_board.md#프롬프트-8)/[asset_img_logo_01.png](./story_board.md#로고)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_cattogether_01.wav](./story_board.md#씬-4-브랜드-로고)
 - **이미지 프롬프트**: [에셋-로고](./story_board.md#로고) 참고
 
 #### 비디오 프롬프트  
