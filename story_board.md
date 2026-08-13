@@ -314,7 +314,7 @@ The glass, the red can, and the white mug stay exactly where they are on the tab
 	-나레이션/대사: kling(자체 더빙),claude(영상에서 자체더빙 음원 추출),elevenlabs(자체더빙 음원으로부터 보이스 캐릭터 보이스로 교체)
 	-오디오:elevenlabs(효과음)
 - **출력(편집) 결과 요약**: 고양이 소리와 함께 화면이 팬아웃 되면서 가족들과 함께 하지 못했던 고양이가 들어나고 고양이가 클로즈업 되면서 대사를 전달
-- **결과 파일명**: [scene_vid_scene2enterCat_02.mp4](./story_board.md#수정프롬프트-1)/[scene_vid_scene2closeUp_01.mp4](./story_board.md#프롬프트2-1)/[scene_img_family_02_08.png](./story_board#편집프롬프트-1)/[scene_nar_mine_01.wav](./story_board.md#)/[scene_snd_cat_01.wav](./story_board.md#고양이-울음-소리)/[scene_snd_disk_02.wav](./story_board.md#빨리-돌리는-소리)
+- **결과 파일명**: [scene_vid_scene2enterCat_02.mp4](./story_board.md#수정프롬프트-1)/[scene_vid_scene2closeUp_01.mp4](./story_board.md#프롬프트2-1)/[scene_img_family_02_08.png](./story_board.md#편집프롬프트-1)/[scene_nar_mine_01.wav](./story_board.md#)/[scene_snd_cat_01.wav](./story_board.md#고양이-울음-소리)/[scene_snd_disk_02.wav](./story_board.md#빨리-돌리는-소리)
 
 ## 이미지 프롬프트
 
