@@ -172,10 +172,12 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 ## 목적
 고양이용 음료를 함께하는 시간을 가족으로 더 가깝게 느낄수 있는 가치를 전달한다.
 
-![scene_img_family_02_01](./scene_img/scene_img_family_02_01.png)
 ---
 
 ## 씬 1 (일상 — 가족들이 함께 음료를 마신다)
+
+![scene_img_family_02_01](./scene_img/scene_img_family_02_01.png)
+
 - **길이**: 3초
 - **목표 메시지**: 음료를 함께하는 가족의 모습을 통해 음료가 가정에서 가지는 공유의 가치를 부여한다.
 - **화면 구성**: 소파에 함께 앉은, 아빠·엄마·아들이 각자 다른 음료를 마심. 세 명이 한 프레임에 자연스럽게 배치.
