@@ -207,7 +207,7 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 	-비디오: kling
 	-나레이션/대사: elevenlabs
 	-오디오:suno(bgm)
-  **결과 파일명**: [scene_vid_scene1_01.mp4](./story_board.md#프롬프트1)/[scene_vid_scene1Link_01.mp4](./story_board.md#프롬프트2)/[scene_img_family_02_01.png](./story_board.md#수정프롬프트)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_family_01.wav](.story_board.md/#씬-1-일상--가족들이-함께-음료를-마신다)
+  **결과 파일명**: [scene_vid_scene1_01.mp4](./story_board.md#프롬프트1)/[scene_vid_scene1Link_01.mp4](./story_board.md#프롬프트2)/[scene_img_family_02_01.png](./story_board.md#수정프롬프트)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_family_01.wav](./story_board.md#씬-1-일상--가족들이-함께-음료를-마신다)
 ### 이미지 프롬프트
 
 #### 프롬프트
@@ -238,13 +238,7 @@ photorealistic candid living room scene, American family of three relaxing on a 
 파라메터: ar 3:2  raw  stylize 120 weird 0 ow 400
 
 ```
-
-photorealistic candid living room scene, American family of three relaxing on a long beige sectional sofa that extends to the right side of the frame, low wooden coffee table running parallel along the full width of the frame, completely bare polished tabletop with nothing placed on it, empty sofa seat and empty table space to the right of the father, mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, young boy with shaggy brown hair and freckles in the middle tilting a red soda can up to his mouth drinking, father on the right drinking from a white ceramic mug, each person holding exactly one drink and nothing else, all three looking away from the camera in different directions, unposed natural moment, wide medium shot, warm golden afternoon light through the window, cinematic advertising photography, shot on 50mm lens
---ar 16:9 
---raw 
---ow 400 
---stylize 120 
-
+photorealistic candid living room scene, American family of three relaxing on a long beige sectional sofa that extends to the right side of the frame, low wooden coffee table running parallel along the full width of the frame, completely bare polished tabletop with nothing placed on it, empty sofa seat and empty table space to the right of the father, mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, young boy with shaggy brown hair and freckles in the middle tilting a red soda can up to his mouth drinking, father on the right drinking from a white ceramic mug, each person holding exactly one drink and nothing else, all three looking away from the camera in different directions, unposed natural moment, wide medium shot, warm golden afternoon light through the window, cinematic advertising photography, shot on 50mm lens --ar 16:9  --raw  --ow 400  --stylize 120 
 ``` 
 
 ![scene_img_family_02](./scene_img/scene_img_family_02.png)
@@ -273,7 +267,10 @@ start: scene_img_family_02_01.png
 end: 없음
 
 ```
-The family lower their drinks onto the table. The camera pans slightly to the right, cropping the mother's left arm at the edge of the frame. Then the camera pans back to the left and gradually widens, revealing an anthropomorphic ragdoll cat in denim overalls sitting on the sofa beside the mother. Smooth continuous camera movement, warm golden afternoon light.
+The family lower their drinks onto the table. 
+The camera pans slightly to the right, cropping the mother's left arm at the edge of the frame. 
+Then the camera pans back to the left and gradually widens, revealing an anthropomorphic ragdoll cat in denim overalls sitting on the sofa beside the mother.
+ Smooth continuous camera movement, warm golden afternoon light.
 ```
 - **출력 결과 요약**:  가족들이 음료수를 마시는 장면부터 시작하여 내려놓는 장면이 담김
 - **결과 파일명**:[scene_vid_scene1_01.mp4](./scene_vid/scene_vid_scene1_01.mp4)
@@ -297,7 +294,7 @@ Only the camera moves, slowly and smoothly. Everyone stays seated and still. The
 ```
 
 - **출력 결과 요약**:  내려놓는 장면을 다음씬의 시작 부분과 맞게 변경
-- **결과 파일명**:![scene_vid_scene1Link_01.mp4](./scene_vid/scene_vid_scene1Link_01.mp4)
+- **결과 파일명**:[scene_vid_scene1Link_01.mp4](./scene_vid/scene_vid_scene1Link_01.mp4)
 
 
 ## 씬 2 (문제 — 고양이 등장 나는? )
@@ -379,7 +376,7 @@ Keep everything else in the image exactly as it is — the cat's pose and size, 
 
 이후 씬 1의 scene_vid_scene1_01.mp4 프레임중 하나를 스크린샷으로 촬영하여 통해서 컵의 방향을 수정하도록 첨부
 
-![cuppont](./scene_img/cuppoint.png)
+![cuppont](./screenshot/cuppoint.png)
 
 ```
 Edit this image only. Make these two changes:
