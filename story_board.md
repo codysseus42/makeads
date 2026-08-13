@@ -303,7 +303,9 @@ The attached can must keep its label, cat logo, "toCatter" text, and "cat togeth
 Keep the wooden table surface, the warm golden lighting, and the 16:9 aspect ratio.
 
 ```
+
 ![scene_img_family_02_11](./asset_img/scene_img_family_02_11.png)
+
 ```
 Edit this image only. Make these three changes:
 
@@ -315,6 +317,7 @@ Edit this image only. Make these three changes:
 
 Keep the can's label, cat logo, "toCatter" text, and "cat together" text exactly as they are — fully legible, in sharp focus, and facing the camera. Keep the pale green liquid pouring into the bowl, the warm golden lighting, and the 16:9 aspect ratio.
 ```
+
 ![scene_img_family_02_12](./asset_img/scene_img_family_02_12.png)
 
 이후 claude를 통해서 로고 크롭
