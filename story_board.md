@@ -1,7 +1,12 @@
 # B1-2 AI로 글, 그림, 영상 만들어 나만의 광고 만들기 — toCatter
 
 ---
-
+[toCatter.mp4](./toCatter.mp4)
+-파일명: toCatter.mp4
+-길이: 10초
+-해상도: 1920 x 1080p
+-프레임레이트: 30fps
+-코덱:H.264 / ACC
 
 ---
 ## 프롬프트 정리
@@ -9,10 +14,11 @@
 - 대화형 편집은 일부 내용 생략
 - 이미지와 비디오는 씬에 수록
 - 효과음 프롬프트는 효과음 부분 참고
-- 대사 프롬프트는 나레이션 내용 자체이며 결과파일은 나레이션에 바로 링크
+- 대사 프롬프트는 나레이션 내용 자체이며 결과파일은 나레이션에 바로 링크 - 더빙부분은 Bonus로
 - 에셋을 그대로 사용한 부분들 에셋 참고
 - 장면별 결과파일은 생성 프롬프트 부분으로 이동 생성프롬프트 부분의 링크는 첨부 파일로 이동
 - 결과파일은 최종 생성물만 표시할 수 있다.
+- 단, 편집된 마지막 파일이름은 toCatter.mp4 
 
 ## 결과 파일명 기준
 	
@@ -306,7 +312,7 @@ The glass, the red can, and the white mug stay exactly where they are on the tab
 - **길이**: 2초
 - **목표 메시지**: 문제 제시 고양이도 음료수를 공유할 수 없을지 생각하게 한다.
 - **화면 구성**: 팬아웃 되면서 고양이 들어남 고양이 클로즈업
-- **나레이션/대사**: ["나는? -캐릭터 asset_voice_02"](./scene_nar/scene_nar_mine_01.wav)
+- **나레이션/대사**: "나는? -캐릭터 asset_voice_02"-[Bonus 참고](./story_board.md#bonus)
 - **효과음**: 고양이 울음소리(scene_snd_cat_01.wav),빨리감는 소리(scene_snd_fiz_01.wav)
 - **사용 도구 및 목적**: 
 	-이미지: Gemini(기존 이미지에 고양이가 등장하게 편집),Claude( 제미나이 마크 제거,동영상 생성용 클로즈업)
@@ -314,7 +320,7 @@ The glass, the red can, and the white mug stay exactly where they are on the tab
 	-나레이션/대사: kling(자체 더빙),claude(영상에서 자체더빙 음원 추출),elevenlabs(자체더빙 음원으로부터 보이스 캐릭터 보이스로 교체)
 	-오디오:elevenlabs(효과음)
 - **출력(편집) 결과 요약**: 고양이 소리와 함께 화면이 팬아웃 되면서 가족들과 함께 하지 못했던 고양이가 들어나고 고양이가 클로즈업 되면서 대사를 전달
-- **결과 파일명**: [scene_vid_scene2enterCat_02.mp4](./story_board.md#수정프롬프트-1)/[scene_vid_scene2closeUp_01.mp4](./story_board.md#프롬프트2-1)/[scene_img_family_02_08.png](./story_board.md#편집프롬프트-1)/[scene_nar_mine_01.wav](./story_board.md#)/[scene_snd_cat_01.wav](./story_board.md#고양이-울음-소리)/[scene_snd_disk_02.wav](./story_board.md#빨리-돌리는-소리)
+- **결과 파일명**: [scene_vid_scene2enterCat_02.mp4](./story_board.md#수정프롬프트-1)/[scene_vid_scene2closeUp_01.mp4](./story_board.md#프롬프트2-1)/[scene_img_family_02_08.png](./story_board.md#편집프롬프트-1)/[scene_nar_mine_01.wav](./story_board.md#더빙)/[scene_snd_cat_01.wav](./story_board.md#고양이-울음-소리)/[scene_snd_disk_02.wav](./story_board.md#빨리-돌리는-소리)
 
 ## 이미지 프롬프트
 
