@@ -571,8 +571,8 @@ Keep the can's label, cat logo, "toCatter" text, and "cat together" text exactly
 
 parameter: mode: 1080p,Length 3s, Number of Outputs 1, Native Audio off
 
-start: scene_img_family_02_11.png
-![scene_img_family_02_11](./scene_img/scene_img_family_02_11.png)
+start: scene_img_family_02_10.png
+![scene_img_family_02_10](./scene_img/scene_img_family_02_10.png)
 
 end: scene_img_family_02_13.png
 ![scene_img_family_02_13](./scene_img/scene_img_family_02_13.png)
