@@ -396,7 +396,7 @@ end: scene_img_family_02_13.png
 	-나레이션/대사: elevenlabs
 	-오디오: suno(bgm)
 - **출력(편집) 결과 요약**: 이전 장면의 마지막 프레임에서 자연스러운 카메라 움직임으로 브랜드 로고가 출력되고 메이커 이름이  캐릭터 보이스로 전달됨
-- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-8)/[asset_img_logo_01](./story_board.md#로고)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_cattogether_01.wav](./story_board.m#씬-4-브랜드-로고)
+- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-8)/[asset_img_logo_01](./story_board.md#로고)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_cattogether_01.wav](./story_board.md#씬-4-브랜드-로고)
 - **이미지 프롬프트**: [에셋-로고](./story_board.md#로고) 참고
 - **비디오 프롬프트**:  
 ### 프롬프트
