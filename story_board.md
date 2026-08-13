@@ -238,7 +238,8 @@ photorealistic candid living room scene, American family of three relaxing on a 
 파라메터: ar 3:2  raw  stylize 120 weird 0 ow 400
 
 ```
-photorealistic candid living room scene, American family of three relaxing on a long beige sectional sofa that extends to the right side of the frame, low wooden coffee table running parallel along the full width of the frame, completely bare polished tabletop with nothing placed on it, empty sofa seat and empty table space to the right of the father, mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, young boy with shaggy brown hair and freckles in the middle tilting a red soda can up to his mouth drinking, father on the right drinking from a white ceramic mug, each person holding exactly one drink and nothing else, all three looking away from the camera in different directions, unposed natural moment, wide medium shot, warm golden afternoon light through the window, cinematic advertising photography, shot on 50mm lens --ar 16:9  --raw  --ow 400  --stylize 120 
+photorealistic candid living room scene, American family of three relaxing on a long beige sectional sofa that extends to the right side of the frame, low wooden coffee table running parallel along the full width of the frame, completely bare polished tabletop with nothing placed on it, empty sofa seat and empty table space to the right of the father, mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, young boy with shaggy brown hair and freckles in the middle tilting a red soda can up to his mouth drinking, father on the right drinking from a white ceramic mug, each person holding exactly one drink and nothing else, all three looking away from the camera in different directions, unposed natural moment, wide medium shot, warm golden afternoon light through the window, cinematic advertising photography, shot on 50mm lens
+ --ar 16:9  --raw  --ow 400  --stylize 120 
 ``` 
 
 ![scene_img_family_02](./scene_img/scene_img_family_02.png)
@@ -290,7 +291,8 @@ end: start: scene_img_family_02_14.png
 ![scene_img_family_02_14.png](./scene_img/scene_img_family_02_14.png)
 
 ```
-Only the camera moves, slowly and smoothly. Everyone stays seated and still. The glass, the red can, and the white mug stay exactly where they are on the table. Warm golden afternoon light.
+Only the camera moves, slowly and smoothly. Everyone stays seated and still. 
+The glass, the red can, and the white mug stay exactly where they are on the table. Warm golden afternoon light.
 ```
 
 - **출력 결과 요약**:  내려놓는 장면을 다음씬의 시작 부분과 맞게 변경
@@ -309,7 +311,7 @@ Only the camera moves, slowly and smoothly. Everyone stays seated and still. The
 	-나레이션/대사: kling(자체 더빙),claude(영상에서 자체더빙 음원 추출),elevenlabs(자체더빙 음원으로부터 보이스 캐릭터 보이스로 교체)
 	-오디오:elevenlabs(효과음)
 - **출력(편집) 결과 요약**: 고양이 소리와 함께 화면이 팬아웃 되면서 가족들과 함께 하지 못했던 고양이가 들어나고 고양이가 클로즈업 되면서 대사를 전달
-- **결과 파일명**: [scene_nar_mine_01.wav](./story_board.md#고양이-울음-소리)//[scene_snd_cat_01.wav](./story_board.md#고양이-울음-소리)/[scene_snd_disk_02.wav](./story_board.md#빨리-돌리는-소리)
+- **결과 파일명**: [scene_vid_scene2enterCat_02.mp4](./story_board.md#씬2-비디오-수정프롬프트-1)/[scene_vid_scene2closeUp_01.mp4](./story_board.md#프롬프트2)/[scene_nar_mine_01.wav](./story_board.md#고양이-울음-소리)/[scene_snd_cat_01.wav](./story_board.md#고양이-울음-소리)/[scene_snd_disk_02.wav](./story_board.md#빨리-돌리는-소리)
 
 ## 이미지 프롬프트
 
@@ -399,7 +401,7 @@ Keep everything else exactly as it is — the cat's pose and size, the family's 
 
 ### 비디오 프롬프트
 
-#### 씬2 비디오 프롬프트1
+#### 프롬프트1
 
 도구:kling
 
@@ -422,7 +424,7 @@ The family lower their drinks onto the table.
 - **비디오 출력 결과 요약**:지나치게 분량을 한번에 생성하여 컵을 내려놓는 연결이 자연스럽지만 고양이가 갑자기 나타나면서 기대했던 영상을 얻지못함.
 - **비디오 결과 파일명**:[scene_vid_scene2enterCat_01.mp4](./scene_vid/scene_vid_scene2enterCat_01.mp4)
 
-#### 씬2 비디오 수정프롬프트 1
+#### 수정프롬프트 1
 
 씬2를 위해서 씬1에 컵위치를 바꾸는 연결영상을 추가하고, 시작점을 바꾼다음에 카메라 움직임과 고양이 등장에 대한 지시를 추가함
 
@@ -445,7 +447,7 @@ Only the camera moves. The frame gradually widens and more of the sofa on the le
 - **비디오 출력 결과 요약**:줌아웃 하면서 자연스럽게 가족들과 함께 하지 못했던 고양이가 드러남
 - **비디오 결과 파일명**:[scene_vid_scene2enterCat_02.mp4](./scene_vid/scene_vid_scene2enterCat_02.mp4)
 
-#### 씬2 비디오 프롬프트2
+#### 프롬프트2
 
 도구:kling
 
