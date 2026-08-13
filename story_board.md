@@ -2,6 +2,26 @@
 
 ---
 
+
+---
+## 프롬프트 정리
+
+	- 대화형 편집은 일부 내용 생략
+	- 이미지와 비디오는 씬에 수록
+	- 효과음 프롬프트는 효과음 부분 참고
+	- 대사 프롬프트는 나레이션 내용 자체이며 결과파일은 나레이션에 바로 링크
+	- 에셋을 그대로 사용한 부분들 에셋 참고
+	- 장면별 결과파일은 생성 프롬프트 부분으로 이동 생성프롬프트 부분의 링크는 첨부 파일로 이동
+	- 결과파일은 최종 생성물만 표시
+
+## 결과 파일명 기준
+
+  asset or scene_종류_설명_원본시도번호_수정번호
+  
+  단, 프레임이나 스크린샷은 임의의 이름을 사용하거나 원본시도번호,수정번호를 가지지지 않음
+  
+---
+
 # 브랜드 아이덴티티
 
 - **브랜드명**: toCatter - cat together
@@ -10,8 +30,6 @@
 - **톤앤매너**: 귀여움과 유머러스함
 - **USP**: 많은 것을 함께 하는 반려 고양이에게 음료형 간식을 제공함으로서, 음료수를 마시며 즐거운 시간을 보내는 경험을 공유
 - **핵심 메시지**: "고양이도 가족이니까"
-
-# 사용 도구 목록
 
 # 사용 도구 목록
 
@@ -32,10 +50,6 @@
 | 영상 편집 | CapCut (무료) | 편집 | 컷 편집·오디오 믹싱·자막 통합 처리 | DaVinci Resolve, Adobe Premiere |
 
 ---
-
-## 결과 파일명 기준
-
-  asset or scene_종류_설명_원본시도번호_수정번호
 
 
 # 에셋
@@ -179,17 +193,6 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 ## 목적
 고양이용 음료를 함께하는 시간을 가족으로 더 가깝게 느낄수 있는 가치를 전달한다.
 
-## 프롬프트 정리
-
-	- 대화형 편집은 일부 내용 생략
-	- 이미지와 비디오는 씬에 수록
-	- 효과음 프롬프트는 효과음 부분 참고
-	- 대사 프롬프트는 나레이션 내용 자체이며 결과파일은 나레이션에 바로 링크
-	- 에셋을 그대로 사용한 부분들 에셋 참고
-	- 장면별 결과파일은 생성 프롬프트 부분으로 이동 생성프롬프트 부분의 링크는 첨부 파일로 이동
-
----
-
 ## 씬 1 (일상 — 가족들이 함께 음료를 마신다)
 
 ![scene_img_family_02_01](./scene_img/scene_img_family_02_01.png)
@@ -205,8 +208,9 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 	-나레이션/대사: elevenlabs
 	-오디오:suno(bgm)
   **결과 파일명**: [scene_img_family_02_01.png](./story_board.md#수정프롬프트)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_family_01.wav](.story_board.md/#씬-1-일상--가족들이-함께-음료를-마신다)
-- **이미지 프롬프트**:
-### 프롬프트
+### 이미지 프롬프트
+
+#### 프롬프트
 
 도구:미드저니
 
@@ -229,7 +233,7 @@ photorealistic candid living room scene, American family of three relaxing on a 
 
 아동 캐릭터와의 유사성이 떨어고 테이블위에 다른 사물이 있어서 프롬프트를 수정하고 유사성과 관련된 파라미터인 ow를 표준적인 범위 안에서 상향 하였습니다.
 
-### 수정프롬프트
+#### 수정프롬프트
 
 파라메터: ar 3:2  raw  stylize 120 weird 0 ow 400
 
@@ -255,9 +259,9 @@ photorealistic candid living room scene, American family of three relaxing on a 
 - **이미지 출력 결과 요약**:영상제작에 쓰일 수 있는 가족이 음료를 공유하는 장면 로고도 제거
 - **이미지 결과 파일명**:[scene_img_family_02_01.png](./scene_img/scene_img_family_02_01.png)
 
-- **비디오 프롬프트**: 
+ **비디오 프롬프트**
 
-### 최종 씬1프롬프트
+#### 프롬프트1
 
 도구:kling
 
@@ -266,31 +270,53 @@ parameter: mode: 1080p,Length 3s, Number of Outputs 1, Native Audio off
 start: scene_img_family_02_01.png
 ![scene_img_family_02_01](./scene_img/scene_img_family_02_01.png)
 
-end: 중 프레임을 마지막 프레임으로 사용
-
-
+end: 없음
 
 ```
 The family lower their drinks onto the table. The camera pans slightly to the right, cropping the mother's left arm at the edge of the frame. Then the camera pans back to the left and gradually widens, revealing an anthropomorphic ragdoll cat in denim overalls sitting on the sofa beside the mother. Smooth continuous camera movement, warm golden afternoon light.
 ```
-- **출력 결과 요약**:  가족들이 음료수를 마시는 장면부터 시작하여 내려놓는 장면을 다음씬의 시작 부분과 맞게 출력
-- **결과 파일명**:![scene_vid_scene1_02.mp4](./scene_vid/scene_vid_scene1_02.mp4)
+- **출력 결과 요약**:  가족들이 음료수를 마시는 장면부터 시작하여 내려놓는 장면이 담김
+- **결과 파일명**:![scene_vid_scene1_01.mp4](./scene_vid/scene_vid_scene1_01.mp4)
+
+#### 프롬프트2
+
+도구:kling
+
+parameter: mode: 1080p,Length 3s, Number of Outputs 1, Native Audio off
+
+start: scene_frame_putDown.png
+![scene_frame_putDown.png](./scene_frame/scene_frame_putDown.png)
+
+end: start: scene_img_family_02_14.png
+다음 장면 시작프레임이면서, scene_img_family_02_08을 Claude를 사용하여 가족만 나오게 잘라낸 scene_img_family_02_14.png를 이용하였습니다.
+
+![scene_img_family_02_14.png](./scene_img/scene_img_family_02_14.png)
+
+```
+Only the camera moves, slowly and smoothly. Everyone stays seated and still. The glass, the red can, and the white mug stay exactly where they are on the table. Warm golden afternoon light.
+```
+
+- **출력 결과 요약**:  내려놓는 장면을 다음씬의 시작 부분과 맞게 변경
+- **결과 파일명**:![scene_vid_scene1Link_01.mp4](./scene_vid/scene_vid_scene1Link_01.mp4)
+
 
 ## 씬 2 (문제 — 고양이 등장 나는? )
 - **길이**: 2초
 - **목표 메시지**: 문제 제시 고양이도 음료수를 공유할 수 없을지 생각하게 한다.
-- **화면 구성**:
+- **화면 구성**: 팬아웃 되면서 고양이 들어남 고양이 클로즈업
 - **나레이션/대사**: ["나는? -캐릭터 asset_voice_02"](./scene_nar/scene_nar_mine_01.wav)
 - **효과음**: 고양이 울음소리(scene_snd_cat_01.wav),빨리감는 소리(scene_snd_fiz_01.wav)
 - **사용 도구 및 목적**: 
-	-이미지: Gemini(기존 이미지에 고양이가 등장하게 편집)
+	-이미지: Gemini(기존 이미지에 고양이가 등장하게 편집),Claude( 제미나이 마크 제거,동영상 생성용 클로즈업)
 	-비디오: kling
 	-나레이션/대사: kling(자체 더빙),claude(영상에서 자체더빙 음원 추출),elevenlabs(자체더빙 음원으로부터 보이스 캐릭터 보이스로 교체)
 	-오디오:elevenlabs(효과음)
-- **출력(편집) 결과 요약**:
+- **출력(편집) 결과 요약**: 고양이 소리와 함께 화면이 팬아웃 되면서 가족들과 함께 하지 못했던 고양이가 들어나고 고양이가 클로즈업 되면서 대사를 전달
 - **결과 파일명**: [scene_nar_mine_01.wav](./story_board.md#고양이-울음-소리)//[scene_snd_cat_01.wav](./story_board.md#고양이-울음-소리)/[scene_snd_disk_02.wav](./story_board.md#빨리-돌리는-소리)
-- **이미지 프롬프트**:
-### 편집프롬프트 1
+
+## 이미지 프롬프트
+
+#### 편집프롬프트 1
 
 도구:Gemini
 
@@ -351,7 +377,7 @@ Keep everything else in the image exactly as it is — the cat's pose and size, 
 
 ![scene_img_family_02_06](./scene_img/scene_img_family_02_06.png)
 
-이후 씬 1의 프레임중 스크린샷을 통해서 컵의 방향을 수정
+이후 씬 1의 scene_vid_scene1_01.mp4 프레임중 하나를 스크린샷으로 촬영하여 통해서 컵의 방향을 수정하도록 첨부
 
 ![cuppont](./scene_img/cuppoint.png)
 
@@ -372,10 +398,57 @@ Keep everything else exactly as it is — the cat's pose and size, the family's 
 ![scene_img_family_02_08](./scene_img/scene_img_family_02_08.png)
 
 - **이미지 출력 결과 요약**: 고양이가 등장하는 씬으로 연결되기 위한 이미지 확보 음료의 배열등 이후에 자연스럽게 이어지게 하기 위해서 추가수정
-- **이미지 결과 파일명**: [scene_img_family_02_08.png](./scene_img/scene_img_family_02_10.png)
+- **이미지 결과 파일명**: [scene_img_family_02_08.png](./scene_img/scene_img_family_02_08.png)
 
-- **비디오 프롬프트**: 
-### 씬2 비디오 프롬프트2
+### 비디오 프롬프트
+
+#### 씬2 비디오 프롬프트1
+
+도구:kling
+
+parameter: mode: 1080p,Length 5s, Number of Outputs 1, Native Audio off
+
+start: scene_img_family_02_15.png
+scene_img_family_02_01.png을 Claude를 사용하여제미나이 마크를 제거한 scene_img_family_02_15.png를 이용하였습니다.
+
+![scene_img_family_02_15.png](./scene_img/scene_img_family_02_15.png)
+
+end: scene_img_family_02_08.png를 사용하였습니다.
+![scene_img_family_02_08.png](./scene_img/scene_img_family_02_08.png)
+
+```
+The family lower their drinks onto the table.
+ The camera pans slightly to the right, cropping the mother's left arm at the edge of the frame. 
+ Then the camera pans back to the left and gradually widens, revealing an anthropomorphic ragdoll cat in denim overalls sitting on the sofa beside the mother.
+```
+
+- **비디오 출력 결과 요약**:지나치게 분량을 한번에 생성하여 컵을 내려놓는 연결이 자연스럽지만 고양이가 갑자기 나타나면서 기대했던 영상을 얻지못함.
+- **비디오 결과 파일명**:[scene_vid_scene2enterCat_01.mp4](./scene_vid/scene_vid_scene2enterCat_01.mp4)
+
+#### 씬2 비디오 수정프롬프트 1
+
+씬2를 위해서 씬1에 컵위치를 바꾸는 연결영상을 추가하고, 시작점을 바꾼다음에 카메라 움직임과 고양이 등장에 대한 지시를 추가함
+
+도구:kling
+
+parameter: mode: 1080p,Length 3s, Number of Outputs 1, Native Audio off
+
+start: scene_img_family_02_14.png
+scene_img_family_02_08을 Claude를 사용하여 가족만 나오게 잘라낸 scene_img_family_02_14.png를 이용하였습니다.
+
+![scene_img_family_02_14.png](./scene_img/scene_img_family_02_14.png)
+
+end: scene_img_family_02_08.png을 사용하였습니다.
+![scene_img_family_02_08](./scene_img/scene_img_family_02_08.png)
+
+```
+Only the camera moves. The frame gradually widens and more of the sofa on the left comes into view, bringing an anthropomorphic ragdoll cat in denim overalls into the shot. The cat is already sitting on the sofa beside the mother from the very first frame and stays completely still in the same spot the whole time. The family stay seated and still. The glass, the red can, and the white mug remain in their exact positions on the table. Everything in the scene is motionless and only the framing changes. Warm golden afternoon light.
+```
+
+- **비디오 출력 결과 요약**:줌아웃 하면서 자연스럽게 가족들과 함께 하지 못했던 고양이가 드러남
+- **비디오 결과 파일명**:[scene_vid_scene2enterCat_02.mp4](./scene_vid/scene_vid_scene2enterCat_02.mp4)
+
+#### 씬2 비디오 프롬프트2
 
 도구:kling
 
@@ -385,14 +458,16 @@ start: scene_img_family_02_08.png)
 
 ![scene_img_family_02_08](./scene_img/scene_img_family_02_08.png)
 
-end: 없음
+end: ![scene_img_family_02_08](./scene_img/scene_img_family_02_08.png)
+
+
 
 ```
 The camera moves in smoothly toward the cat. The cat tilts its head to one side with a questioning expression and says, "나는?" The family stay seated and still. The glass, the red can, and the white mug stay exactly where they are on the table. Warm golden afternoon light.
 ```
 
-- **출력 결과 요약**:고양이 목소리가 자체 더빙되어 이후 교체할 수 있는 고양이가 클로즈업 되면서 말하는 장면
-- **결과 파일명**:[scene_vid_scene_closeUp_01.mp4](./scene_vid/scene_vid_scene_closeUp_01.mp4)
+- **비디오 출력 결과 요약**:고양이 목소리가 자체 더빙되어 이후 교체할 수 있는 고양이가 클로즈업 되면서 말하는 장면
+- **비디오 결과 파일명**:[scene_vid_scene2closeUp_01.mp4](./scene_vid/scene_vid_scene2closeUp_01.mp4)
 
 ## 씬 3 (전환 ・ 해결/제안 — 따라준다)
 
@@ -413,8 +488,10 @@ The camera moves in smoothly toward the cat. The cat tilts its head to one side 
 	-오디오: suno(bgm),elevenlabs(효과음)
 - **출력(편집) 결과 요약**: 음료수가 등장하면서  따라지고 브랜드 로고가 
 - **결과 파일명**: [scene_vid_scene3_01.mp4.](./story_board.md#프롬프트-7)/[scene_img_fmaily_02_10.png](./story_board.md#편집프롬프트-1)/[scene_img_family_02_13.png](./story_board.md#편집프롬프트-2)/[scene_nar_catFamily_01.wav](./story_board.md#씬-3-전환--해결제안--따라준다)/[scene_nar_tocatter_01.wav](.story_board.md/#씬-3-전환--해결제안--따라준다)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_snd_fiz_01.wav](./story_board.md#캔안의-음료가-찰랑-거리는-소리)/[scene_snd_pour_01.wav](./story_board.md#음료-따르는-소리)
-- **이미지 프롬프트**:
-### 편집프롬프트 1
+
+### 이미지 프롬프트
+
+#### 편집프롬프트 1
 
 도구:Gemini
 
@@ -441,7 +518,7 @@ Add a white ceramic pet bowl on the table to the left of the three drinks, so al
 - **이미지 출력 결과 요약**: 음료가 따라 지기전에 보여줄 뒷부분이 블러 처리된 용기의 나열을 이전 장면 마지막 프레임으로 부터의 연속성 있는 편집으로 출력
 - **이미지 결과 파일명**: [scene_img_family_02_10.png](./scene_img/scene_img_family_02_10.png)
  
-### 편집프롬프트 2
+#### 편집프롬프트 2
 
 도구:Gemini
 
@@ -484,8 +561,9 @@ Keep the can's label, cat logo, "toCatter" text, and "cat together" text exactly
 - **이미지 출력 결과 요약**:  음료를 따르는 장면의 마지막 프레임을 기존장면으로 부터의 연속성 있는 편집으로 출력
 - **이미지 결과 파일명**: [scene_img_family_02_13.png](./scene_img/scene_img_family_02_13.png)
 
-- **비디오 프롬프트**:  
-### 프롬프트
+### 비디오 프롬프트
+
+#### 프롬프트
 
 도구:kling
 
@@ -520,8 +598,10 @@ liquid pours steadily from the can into the bowl, hand remains steady, cat's fac
 - **출력(편집) 결과 요약**: 이전 장면의 마지막 프레임에서 자연스러운 카메라 움직임으로 브랜드 로고가 출력되고 메이커 이름이  캐릭터 보이스로 전달됨
 - **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-8)/[asset_img_logo_01.png](./story_board.md#로고)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_cattogether_01.wav](./story_board.md#씬-4-브랜드-로고)
 - **이미지 프롬프트**: [에셋-로고](./story_board.md#로고) 참고
-- **비디오 프롬프트**:  
-### 프롬프트
+
+#### 비디오 프롬프트  
+
+#### 프롬프트
 
 도구:kling
 
