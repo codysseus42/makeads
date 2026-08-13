@@ -694,15 +694,16 @@ native audio를 on으로 하여 생성하고
 Claude를 사용하여 해당 대사가 있는 음성 파일을 추출하였습니다.
 [naneun_original.wav](./scene_extract/naneun_original.wav)
 
-이후 보이스 체인지를 할 수 있게 길이를 5초이상으로 요구하였기 떄문에 2초 짜리 음성을 7초로 늘리고
-Claude를 이용하여 [naneun_looped_7s.wav](./scene_extract/naneun_looped_7s.wav)
+이후 보이스 체인지를 할 수 있게 길이를 5초이상으로 요구하였기 떄문에 
+Claude를 이용하여 2초 짜리 음성을 7초로 늘리고
 
-해당값을 입력값으로 사용하여
+ [naneun_looped_7s.wav](./scene_extract/naneun_looped_7s.wav)
 
+위 파일을 입력값으로 사용하고
 아래와 같은 설정으로 변화하여
+이후 편집 과정에서 잘라내어 삽입하였습니다.
 
-편집 과정에서 잘라내어 삽입하였습니다.
-
+---
 입력
  	[naneun_looped_7s.wav](./scene_extract/naneun_looped_7s.wav)
 
