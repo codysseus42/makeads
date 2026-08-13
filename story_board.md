@@ -79,7 +79,7 @@ photorealistic candid family portrait, American family of three in a bright mode
 
 ## 로고
 
-![asset_img_logo_01_01](./asset_img/asset_img_logo_01_01.png))
+![asset_img_logo_01_01](./asset_img/asset_img_logo_01_01.png)
 
 도구: Gemini,Claude(크롭)
 
@@ -184,6 +184,7 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 	- 대화형 편집은 일부 내용 생략
 	- 이미지와 비디오는 씬에 수록
 	- 효과음 프롬프트는 효과음 부분 참고
+	- 대사 프롬프트는 나레이션 내용 자체이며 결과파일은 나레이션에 바로 링크
 	- 에셋을 그대로 사용한 부분들 에셋 참고
 	- 장면별 결과파일은 생성 프롬프트 부분으로 이동 생성프롬프트 부분의 링크는 첨부 파일로 이동
 
@@ -383,7 +384,7 @@ end: scene_img_family_02_13.png
 
 ## 씬 4 (브랜드 로고)
 
-![asset_img_logo_01](./asset_img/asset_img_logo_01.png)
+![asset_img_logo_01](./asset_img/asset_img_logo_01_01.png)
 
 - **길이**: 1초
 - **목표 메시지**: 브랜드로고카드를 통해 브랜드(제품)명과 메이커를 최종적으로 각인시키면서 메이커이름도 나래이션으로 부각한다.
@@ -395,7 +396,7 @@ end: scene_img_family_02_13.png
 	-나레이션/대사: elevenlabs
 	-오디오: suno(bgm)
 - **출력(편집) 결과 요약**: 이전 장면의 마지막 프레임에서 자연스러운 카메라 움직임으로 브랜드 로고가 출력되고 메이커 이름이  캐릭터 보이스로 전달됨
-- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-8)/[asset_img_logo_01](./story_board.md#로고)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_cattogether_01.wav](./scene_nar/scene_nar_cattogether_01.wav)
+- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-8)/[asset_img_logo_01](./story_board.md#로고)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_cattogether_01.wav](./story_board.m#씬-4-브랜드-로고)
 - **이미지 프롬프트**: [에셋-로고](./story_board.md#로고) 참고
 - **비디오 프롬프트**:  
 ### 프롬프트
