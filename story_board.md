@@ -290,9 +290,11 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 	-나레이션/대사: elevenlabs
 	-오디오: suno(bgm),elevenlabs(효과음)
 - **출력 결과 요약**: 
-- **결과 파일명**:[scene_img_fmaily_02_09]()/[scene_img_family_02_13]()//[asset_bgm_01.mp3](./asset_bgm/asset_bgm_01.mp3)/[scene_snd_fiz_01.wav](./scene_snd/scene_snd_fiz_01.wav)/[scene_snd_pour_01.wav](./scene_snd/scene_snd_pour_01.wav)/
+- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-7)/[scene_img_fmaily_02_09](./story_board.md#편집프롬프트-1)/[scene_img_family_02_13](./story_board.md#편집프롬프트-2)//[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_snd_fiz_01.wav](./scene_snd/scene_snd_fiz_01.wav)/[scene_snd_pour_01.wav](./scene_snd/scene_snd_pour_01.wav)/
 - **이미지 프롬프트**:
 ### 편집프롬프트 1
+
+도구:Gemini
 
 scene_img_family_02_06.png 를 편집하였습니다.
 
@@ -317,9 +319,11 @@ Add a white ceramic pet bowl on the table to the left of the three drinks, so al
 출력 결과: 음료가 따라 지기전에 보여줄 뒷부분이 블러 처리된 용기의 나열을 이전 장면 마지막 프레임으로 부터의 연속성 있는 편집으로 출력
 ### 편집프롬프트 2
 
+도구:Gemini
+
 asset_img_product_01_01.png를 편집하였습니다.
 
-![asset_img_product_01_01](./scene_img/asset_img_product_01_01.png)
+![asset_img_product_01_01](./asset_img/asset_img_product_01_01.png)
 ```
 ...
 Edit the image. Zoom in tightly on the white pet bowl so it fills the lower portion of the frame. The three other drinks are no longer in the shot — only the pet bowl remains on the wooden table. The background is a smooth warm blur with no people, furniture, or other objects visible.
@@ -357,6 +361,9 @@ Keep the can's label, cat logo, "toCatter" text, and "cat together" text exactly
 
 - **비디오 프롬프트**:  
 ### 프롬프트
+
+도구:kling
+
 parameter: mode: 1080p,Length 3s, Number of Outputs 1, Native Audio off
 
 start: scene_img_family_02_11.png
@@ -391,7 +398,7 @@ end: scene_img_family_02_13.png
 
 영상 출력 이후에 출력
 
-**고양이 울음 소리**
+### 고양이 울음 소리
 
 ```
 soft warm meow
@@ -400,7 +407,7 @@ soft warm meow
 - **출력 결과 요약**: 고양이 등장을 암시하는 귀여운 야옹소리
 - **결과 파일명**: [scene_snd_cat_01.wav](./scene_snd/scene_snd_cat_01.wav)
 
-**빨리 돌리는 소리**
+### 빨리 돌리는 소리
 ```
 sound that can be heard by speaker when disk scratch by dj
 ```
@@ -408,7 +415,7 @@ sound that can be heard by speaker when disk scratch by dj
 - **출력 결과 요약**: 고양이 장면에 유머를 더해줄릴을 빨리돌리는 것과 같은 소리
 - **결과 파일명**: [scene_snd_disk_02.wav](./scene_snd/scene_snd_disk_02.wav)
 
-**캔안의 음료가 찰랑 거리는 소리**
+### 캔안의 음료가 찰랑 거리는 소리
 ```
 sound that can be heard by speaker when disk scratch by dj
 ```
@@ -416,7 +423,7 @@ sound that can be heard by speaker when disk scratch by dj
 - **출력 결과 요약**: 음료를 따르기 전 캔안의 음료가 찰랑거리는 소리
 - **결과 파일명**: [scene_snd_fiz_01.wav](./scene_snd/scene_snd_fiz_01.wav)
 
-**음료 따르는 소리**
+### 음료 따르는 소리
 
 ```
 sound that can be heard by speaker when disk scratch by dj
