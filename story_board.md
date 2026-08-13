@@ -1,6 +1,7 @@
 # B1-2 AI로 글, 그림, 영상 만들어 나만의 광고 만들기 — toCatter
 
 ---
+
 [toCatter.mp4](./toCatter.mp4)
 -파일명: toCatter.mp4
 -길이: 10초
@@ -20,13 +21,20 @@
 - 결과파일은 최종 생성물만 표시할 수 있다.
 - 단, 편집된 마지막 파일이름은 toCatter.mp4 
 
+---
+
+##편집
+
+CapCut을 이용하였으며, 불필요한 부분 음소거, 음성과 영상파일의 절단과 이어붙이기등의 기능만 이용하였고 기존소스에 새로운 요소를 넣지
+
+---
+
 ## 결과 파일명 기준
 	
 	 asset or scene_종류_설명_원본시도번호_수정번호
   
   단, 프레임이나 스크린샷, 추출 파일은 임의의 이름을 사용하거나 원본시도번호,수정번호를 가지지지 않음
-  
----
+  ---
 
 # 브랜드 아이덴티티
 
@@ -313,7 +321,7 @@ The glass, the red can, and the white mug stay exactly where they are on the tab
 - **목표 메시지**: 문제 제시 고양이도 음료수를 공유할 수 없을지 생각하게 한다.
 - **화면 구성**: 팬아웃 되면서 고양이 들어남 고양이 클로즈업
 - **나레이션/대사**: "나는? -캐릭터 asset_voice_02"-[Bonus 참고](./story_board.md#bonus)
-- **효과음**: 고양이 울음소리(scene_snd_cat_01.wav),빨리감는 소리(scene_snd_fiz_01.wav)
+- **효과음**: 고양이 울음소리(scene_snd_cat_01.wav),빨리 돌리는 소리(scene_snd_disk_02.wav)
 - **사용 도구 및 목적**: 
 	-이미지: Gemini(기존 이미지에 고양이가 등장하게 편집),Claude( 제미나이 마크 제거,동영상 생성용 클로즈업)
 	-비디오: kling
