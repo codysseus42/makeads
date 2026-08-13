@@ -290,7 +290,7 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 	-나레이션/대사: elevenlabs
 	-오디오: suno(bgm),elevenlabs(효과음)
 - **출력 결과 요약**: 
-- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-7)/[scene_img_fmaily_02_09](./story_board.md#편집프롬프트-1)/[scene_img_family_02_13](./story_board.md#편집프롬프트-2)//[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_snd_fiz_01.wav](./story_board.md#story_board.md#캔안의-음료가-찰랑-거리는-소리)/[scene_snd_pour_01.wav](./story_board.md#음료-따르는-소리)/
+- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-7)/[scene_img_fmaily_02_09](./story_board.md#편집프롬프트-1)/[scene_img_family_02_13](./story_board.md#편집프롬프트-2)//[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_snd_fiz_01.wav](./story_board.md#story_board.md#캔안의-음료가-찰랑-거리는-소리)/[scene_snd_pour_01.wav](./story_board.md#음료-따르는-소리)
 - **이미지 프롬프트**:
 ### 편집프롬프트 1
 
