@@ -704,11 +704,11 @@ Claude를 이용하여 2초 짜리 음성을 7초로 늘리고
 이후 편집 과정에서 잘라내어 삽입하였습니다.
 
 ---
-입력
- 	[naneun_looped_7s.wav](./scene_extract/naneun_looped_7s.wav)
+**입력**: [naneun_looped_7s.wav](./scene_extract/naneun_looped_7s.wav)
 
+**설정**
 asset_voice_02
-설정
+
 음성 asset_voice_02
 모델 Eleven Multilingual v2
 속도 1
