@@ -169,9 +169,11 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 
 # 스토리보드 (총 10초 / 4컷)
 
-**아크**: 가족은 각자 마신다(3s) → 고양이만 빠져 있다(2s) → 그 자리를 채운다(3s) → 브랜드(2s)
+## 목적
+고양이용 음료를 함께하는 시간을 가족으로 더 가깝게 느낄수 있는 가치를 전달한다.
 
 ![scene_img_family_02_01](./scene_img/scene_img_family_02_01.png)
+---
 
 ## 씬 1 (일상 — 가족들이 함께 음료를 마신다)
 - **길이**: 3초
@@ -253,7 +255,7 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 - **출력 결과 요약**:
 - **결과 파일명**:
 
-## 씬 3 (해결 — 따라준다)
+## 씬 3 (전환 ・ 해결/제안 — 따라준다)
 
 ![scene_img_fmaily_02_09](./scene_img/scene_img_family_02_09.png)
 
