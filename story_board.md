@@ -706,7 +706,8 @@ Claude를 이용하여 2초 짜리 음성을 7초로 늘리고
 ---
 **입력**: [naneun_looped_7s.wav](./scene_extract/naneun_looped_7s.wav)
 
-**설정**
+**설정**:
+
 asset_voice_02
 
 음성 asset_voice_02
