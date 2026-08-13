@@ -717,7 +717,7 @@ asset_voice_02
 화자 증폭 활성화됨
 
 - **출력 결과 요약**: 고양이 캐릭터 목소리로 변환된 원본 대사파일
-- **결과 파일명**: [scene_nar_mine_01.wav](./scene_snd/scene_nar_mine_01.wav)
+- **결과 파일명**: [scene_nar_mine_01.wav](./scene_nar/scene_nar_mine_01.wav)
 
 
 
