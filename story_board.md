@@ -593,7 +593,7 @@ start: scene_img_family_02_08.png)
 
 ![scene_img_family_02_08](./scene_img/scene_img_family_02_08.png)
 
-end: ![scene_img_family_02_08](./scene_img/scene_img_family_02_08.png)
+end: 없음
 
 
 
