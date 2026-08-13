@@ -197,36 +197,42 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 - **길이**: 3초
 - **목표 메시지**: 음료를 함께하는 가족의 모습을 통해 음료가 가정에서 가지는 공유의 가치를 부각한다.
 - **화면 구성**: 소파에 함께 앉은, 아빠·엄마·아들이 각자 다른 음료를 마심. 세 명이 한 프레임에 자연스럽게 배치.
-- **나레이션**: "가족들이 모이면 모두 좋아하는 음료수를 함께 즐기죠(중년 남성 asset_voice_01)"
+- **나레이션**: ["가족들이 모이면 모두 좋아하는 음료수를 함께 즐기죠 - 중년 남성 asset_voice_01"](./scene_nar/scene_nar_family_01.wav)
 - **효과음**: 없음
 - **사용 도구 및 목적**: 
 	-이미지: 미드 저니(시작 이미지 생성), 제미나이(아이의 캔의 로고 제거)
-	-비디오: kling(영상생성)
+	-비디오: kling
 	-나레이션/대사: elevenlabs
 	-오디오:suno(bgm)
-  **결과 파일명:** scene_img_family_02_01.png/asset_bgm_01.mp3/
+  **결과 파일명**: [scene_img_family_02_01.png](./story_board.md#수정프롬프트)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_family_01.wav](.story_board.md/#씬-1-일상--가족들이-함께-음료를-마신다)
 - **이미지 프롬프트**:
 ### 프롬프트
 
+도구:미드저니
+
 asset_img_family_01.png를 기반으로 아래 프롬프트 입력 ow를 도입하여 
+
+![asset_img_family_01](./scene_img/asset_img_family_01.png)
+
+파라메터: ar 16:9  raw  stylize 120  weird 0 ow 100
 
 ```
 photorealistic candid living room scene, American family of three relaxing on a beige sofa, low wooden coffee table in front of them, mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, father on the right drinking from a white ceramic mug, young boy in the middle tilting a red soda can up to drink, all three looking away from the camera in different directions, unposed natural moment, medium shot filling the frame, warm golden afternoon light through the window, cinematic advertising photography, shot on 50mm lens --ar 16:9  --raw  --ow 100  --stylize 120 
 ```
 
-파라메터: ar 16:9  raw  stylize 120  weird 0 ow 100
+![scene_img_family_01](./scene_img/scene_img_family_01.png)
 
-결과 요약:일관성이 조금 부족한 이미지
+- **이미지 출력 결과 요약**:구도등은 원하는 이미지에 근사하나  일관성이 조금 부족한 이미지, 테이블위가 난잡하여 영상 일관성에 지장
+- **이미지 결과 파일명**:[asset_img_family_01.png](./scene_img/asset_img_family_01.png)
 
-구도등은 원하는 봐에 근사하나 
 
-아동 캐릭터와의 유사성이 떨어지는 것 같아서 유사성과 관련된 파라미터인 ow를 표준적인 범위 안에서 상향 하였습니다.
 
-![asset_img_family_01](./scene_img/scene_img_family_01.png)
-
-결과 파일명: asset_img_family_01.png
+아동 캐릭터와의 유사성이 떨어고 테이블위에 다른 사물이 있어서 프롬프트를 수정하고 유사성과 관련된 파라미터인 ow를 표준적인 범위 안에서 상향 하였습니다.
 
 ### 수정프롬프트
+
+파라메터: ar 3:2  raw  stylize 120 weird 0 ow 400
+
 ```
 
 photorealistic candid living room scene, American family of three relaxing on a long beige sectional sofa that extends to the right side of the frame, low wooden coffee table running parallel along the full width of the frame, completely bare polished tabletop with nothing placed on it, empty sofa seat and empty table space to the right of the father, mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, young boy with shaggy brown hair and freckles in the middle tilting a red soda can up to his mouth drinking, father on the right drinking from a white ceramic mug, each person holding exactly one drink and nothing else, all three looking away from the camera in different directions, unposed natural moment, wide medium shot, warm golden afternoon light through the window, cinematic advertising photography, shot on 50mm lens
@@ -237,42 +243,156 @@ photorealistic candid living room scene, American family of three relaxing on a 
 
 ``` 
 
-파라메터: ar 3:2  raw  stylize 120 weird 0 ow 400
-
-결과 파일명: asset_img_family_01_02.png
 ![scene_img_family_02](./scene_img/scene_img_family_02.png)
+
+- **이미지 출력 결과 요약**:구도등은 원하는 이미지에 근사하나  일관성이 조금 부족한 이미지, 테이블위가 난잡하여 영상 일관성에 지장
+- **이미지 결과 파일명**:[scene_img_family_02](./scene_img/scene_img_family_02.png)
 
 이후 위의 이미지 제미나이를 통해 아동이 가진 캔의 로고를 제거
 
-결과 요약 : 영상제작에 쓰일 수 있는 가족이 음료를 공유하는 장면 로고도 제거
-
-결과 파일명: scene_img_family_02_01.png
-
 ![scene_img_family_02_01](./scene_img/scene_img_family_02_01.png)
 
-- **비디오 프롬프트**: `each family member sips their drink naturally, subtle head and hand movements, warm light, static camera`
-- **출력 결과 요약**: 
-- **결과 파일명**:
+- **이미지 출력 결과 요약**:영상제작에 쓰일 수 있는 가족이 음료를 공유하는 장면 로고도 제거
+- **이미지 결과 파일명**:[scene_img_family_02_01.png](./scene_img/scene_img_family_02_01.png)
 
-![scene_img_fmaily_02_08](./scene_img/scene_img_fmaily_02_08.png)
+- **비디오 프롬프트**: 
+
+### 최종 씬1프롬프트
+
+도구:kling
+
+parameter: mode: 1080p,Length 3s, Number of Outputs 1, Native Audio off
+
+start: scene_img_family_02_01.png
+![scene_img_family_02_01](./scene_img/scene_img_family_02_01.png)
+
+end: 중 프레임을 마지막 프레임으로 사용
+
+
+
+```
+The family lower their drinks onto the table. The camera pans slightly to the right, cropping the mother's left arm at the edge of the frame. Then the camera pans back to the left and gradually widens, revealing an anthropomorphic ragdoll cat in denim overalls sitting on the sofa beside the mother. Smooth continuous camera movement, warm golden afternoon light.
+```
+- **출력 결과 요약**:  가족들이 음료수를 마시는 장면부터 시작하여 내려놓는 장면을 다음씬의 시작 부분과 맞게 출력
+- **결과 파일명**:![scene_vid_scene1_02.mp4](./scene_vid/scene_vid_scene1_02.mp4)
 
 ## 씬 2 (문제 — 고양이 등장 나는? )
 - **길이**: 2초
-- **목표 메시지**: 소외의 순간. 이 광고의 감정 코어
-- **화면 구성**: 같은 식탁 옆, 고양이 클로즈업. 고개를 갸우뚱하며 가족 쪽을 바라봄. 앞에는 아무것도 없음
-- **나레이션/대사**: "나는?"
-- **효과음**: 정적 (음악 잦아듦)
-- **사용 도구**: MJ 또는 Gemini(고양이 oref) → Kling
-- **출력 결과 요약**:
-- **결과 파일명**:
+- **목표 메시지**: 문제 제시 고양이도 음료수를 공유할 수 없을지 생각하게 한다.
+- **화면 구성**:
+- **나레이션/대사**: ["나는? -캐릭터 asset_voice_02"](./scene_nar/scene_nar_mine_01.wav)
+- **효과음**: 고양이 울음소리(scene_snd_cat_01.wav),빨리감는 소리(scene_snd_fiz_01.wav)
+- **사용 도구 및 목적**: 
+	-이미지: Gemini(기존 이미지에 고양이가 등장하게 편집)
+	-비디오: kling
+	-나레이션/대사: kling(자체 더빙),claude(영상에서 자체더빙 음원 추출),elevenlabs(자체더빙 음원으로부터 보이스 캐릭터 보이스로 교체)
+	-오디오:elevenlabs(효과음)
+- **출력(편집) 결과 요약**:
+- **결과 파일명**: [scene_nar_mine_01.wav](./story_board.md#고양이-울음-소리)//[scene_snd_cat_01.wav](./story_board.md#고양이-울음-소리)/[scene_snd_disk_02.wav](./story_board.md#빨리-돌리는-소리)
 - **이미지 프롬프트**:
+### 편집프롬프트 1
+
+도구:Gemini
+
+scene_img_family_02_01.png에 asset_img_cat_01를 첨부하여 편집하였습니다.
+
+![scene_img_family_02_01](./scene_img/scene_img_family_02_01.png)
+
+![asset_img_cat_01](./asset_img/asset_img_cat_01.png)
+
 ```
-photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dining table, head tilted to one side with a questioning expression, looking toward the family off-frame, nothing in front of the cat, warm golden afternoon light, shallow depth of field, cinematic advertising photography --ar 16:9 --style raw --stylize 120
+....
+
+Create a new scene from this living room image that you just made. The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row. The family members have set their drinks down. Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. There is empty table space in front of the cat with nothing on it. Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. Match the warm golden afternoon lighting and add a soft shadow.
 ```
-  (+ oref: 고양이 캐논, 슬라이더 80)
-- **비디오 프롬프트**: `cat tilts its head slowly to one side, ears twitch, blinks once, minimal camera movement`
-- **출력 결과 요약**:
-- **결과 파일명**:
+
+![scene_img_family_02_02](./asset_img/scene_img_family_02_02.png)
+
+```
+Do it again I will give you all the sources. Cat is too small and have to sit next to family. And color of the woman’s drink has changed match it to the original.
+Now read the dirction carefully
+Create a new scene from this living room image that you just made. The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row. The family members have set their drinks down. Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. There is empty table space in front of the cat with nothing on it. Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. Match the warm golden afternoon lighting and add a soft shadow.
+```
+![scene_img_family_02_03](./asset_img/scene_img_family_02_03.png)
+
+```
+Do it again I will give you all the sources. Cat is too small and have to sit next to family. And color of the woman’s drink has changed match it to the original.
+Now read the dirction carefully
+Create a new scene from this living room image that you just made. The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row. The family members have set their drinks down. Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. There is empty table space in front of the cat with nothing on it. Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. Match the warm golden afternoon lighting and add a soft shadow.
+```
+![scene_img_family_02_04](./asset_img/scene_img_family_02_04.png)
+
+```
+Refine this image with these corrections. Keep the original 16:9 widescreen aspect ratio and the exact same framing and camera position.
+
+1. The cat must sit exactly the way the boy sits: back against the sofa backrest, bottom on the cushion, both legs extended forward along the seat, front paws resting on its thighs, chest facing the camera. It sits like a person, not like an animal.
+
+2. Make the cat slightly larger, so its head reaches the same height as the mother's shoulder.
+
+3. The cat's head is tilted to one side with a questioning expression, looking to its right toward the family.
+
+4. The mother's glass contains light caramel-brown iced coffee with visible ice cubes.
+
+5. Keep everything else unchanged — the family's poses and faces, the sofa, the table, the mug, the red can, and the lighting.
+```
+![scene_img_family_02_05](./asset_img/scene_img_family_02_05.png)
+
+```
+Edit this image only. Make these three changes:
+
+1. The mother's hands are empty and rest on her lap. She is not holding anything. There is exactly one tall glass in this scene and it stands on the wooden table.
+
+2. Change the liquid in that glass to dark brown, the color of black iced coffee with only a small amount of milk. It should look much darker than it currently does.
+
+3. Reduce the liquid level so the glass is about half full, as if someone has already been drinking from it. Keep the ice cubes visible.
+
+Keep everything else in the image exactly as it is — the cat's pose and size, the family's faces and poses, the sofa, the table, the mug, the red can, and the lighting. Do not change the composition or the aspect ratio.
+```
+
+![scene_img_family_02_06](./asset_img/scene_img_family_02_06.png)
+
+이후 씬 1의 프레임중 스크린샷을 통해서 컵의 방향을 수정
+
+![cuppont](./screenshot/cuppoint.png)
+
+```
+Edit this image only. Make these two changes:
+
+1. Rotate the white ceramic mug so its handle points same direction like the attached mug’s handle
+
+2. The tall glass contains dark brown iced coffee filled to about one-third of the glass, noticeably less than now, as if most of it has been drunk. Keep the ice cubes visible.
+
+Keep everything else exactly as it is — the cat's pose and size, the family's poses and faces, the sofa, the table, the red can, and the lighting.
+```
+
+![scene_img_family_02_07](./asset_img/scene_img_family_02_07.png)
+
+이후 claude로 제미나이 로고 크롭
+ 
+![scene_img_family_02_08](./scene_img/scene_img_family_02_08.png)
+
+- **이미지 출력 결과 요약**: 고양이가 등장하는 씬으로 연결되기 위한 이미지 확보 음료의 배열등 이후에 자연스럽게 이어지게 하기 위해서 추가수정
+- **이미지 결과 파일명**: [scene_img_family_02_08.png](./scene_img/scene_img_family_02_10.png)
+
+- **비디오 프롬프트**: 
+### 씬2 비디오 프롬프트2
+
+도구:kling
+
+parameter: mode: 1080p,Length 3s, Number of Outputs 1, Native Audio on
+
+start: scene_img_family_02_08.png)
+
+![scene_img_family_02_08](./scene_img/scene_img_family_02_08.png)
+
+end: 없음
+
+```
+The camera moves in smoothly toward the cat. The cat tilts its head to one side with a questioning expression and says, "나는?" The family stay seated and still. The glass, the red can, and the white mug stay exactly where they are on the table. Warm golden afternoon light.
+```
+
+- **출력 결과 요약**:고양이 목소리가 자체 더빙되어 이후 교체할 수 있는 고양이가 클로즈업 되면서 말하는 장면
+- **결과 파일명**:[scene_vid_scene_closeUp_01.mp4](./scene_vid/scene_vid_scene_closeUp_01.mp4)
 
 ## 씬 3 (전환 ・ 해결/제안 — 따라준다)
 
@@ -377,7 +497,9 @@ start: scene_img_family_02_11.png
 end: scene_img_family_02_13.png
 ![scene_img_family_02_13](./scene_img/scene_img_family_02_13.png)
 
-`liquid pours steadily from the can into the bowl, hand remains steady, cat's face enters frame from the side watching, minimal camera movement`
+```
+liquid pours steadily from the can into the bowl, hand remains steady, cat's face enters frame from the side watching, minimal camera movement
+```
 
 - **비디오 출력 결과 요약**: 음료수가 따라지는 장면 마지막에 ㅈㅔ품(캔) 위에 로고 노출
 - **비디오 결과 파일명**: [scene_vid_scene3_01.mp4](./scene_vid/scene_vid_scene3_01.mp4)
@@ -396,7 +518,7 @@ end: scene_img_family_02_13.png
 	-나레이션/대사: elevenlabs
 	-오디오: suno(bgm)
 - **출력(편집) 결과 요약**: 이전 장면의 마지막 프레임에서 자연스러운 카메라 움직임으로 브랜드 로고가 출력되고 메이커 이름이  캐릭터 보이스로 전달됨
-- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-8)/[asset_img_logo_01](./story_board.md#로고)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_cattogether_01.wav](./story_board.md#씬-4-브랜드-로고)
+- **결과 파일명**: [scene_vid_scene3_02_13](./story_board.md#프롬프트-8)/[asset_img_logo_01.png](./story_board.md#로고)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_nar_cattogether_01.wav](./story_board.md#씬-4-브랜드-로고)
 - **이미지 프롬프트**: [에셋-로고](./story_board.md#로고) 참고
 - **비디오 프롬프트**:  
 ### 프롬프트
@@ -411,10 +533,12 @@ start: scene_img_family_02_13.png(이전 장면의 마지막 프레임을 사용
 end: asset_img_logo_01_01.png(마지막 로고 화면을 사용)
 ![asset_img_logo_01_01](./asset_img/asset_img_logo_01_01.png)
 
-`The camera tilts smoothly upward, away from the bowl and toward the plain cream-colored wall above. The logo is already printed on the wall from the very first moment it becomes visible at the frame edge, complete and sharp. Only the camera moves. Warm golden light.`
+```
+`The camera tilts smoothly upward, away from the bowl and toward the plain cream-colored wall above. The logo is already printed on the wall from the very first moment it becomes visible at the frame edge, complete and sharp. Only the camera moves. Warm golden light.
+```
 
-- **출력 결과 요약**: 음료수가 따라지는 장면에서 자연스럽게 카메라가 올라가면서 마지막에 로고 노출
-- **결과 파일명**:[scene_vid_scene4_01.mp4](./scene_vid/scene_vid_scene4_01.mp4)
+- **비디오 출력 결과 요약**: 음료수가 따라지는 장면에서 자연스럽게 카메라가 올라가면서 마지막에 로고 노출
+- **비디오 결과 파일명**:[scene_vid_scene4_01.mp4](./scene_vid/scene_vid_scene4_01.mp4)
 
 ---
 
@@ -455,5 +579,7 @@ sound that can be heard by speaker when disk scratch by dj
 
 - **출력 결과 요약**:음료를 따를 때 나는 소리
 - **결과 파일명**: [scene_snd_pour_01.wav](./scene_snd/scene_snd_pour_01.wav)
+
+# Bonus
 
 
