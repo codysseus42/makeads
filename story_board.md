@@ -704,7 +704,7 @@ Claude를 이용하여 [naneun_looped_7s.wav](./scene_extract/naneun_looped_7s.w
 편집 과정에서 잘라내어 삽입하였습니다.
 
 입력
- [naneun_looped_7s.wav](./scene_extract/naneun_looped_7s.wav)
+ 	[naneun_looped_7s.wav](./scene_extract/naneun_looped_7s.wav)
 
 asset_voice_02
 설정
