@@ -1,13 +1,13 @@
 # B1-2 AI로 글, 그림, 영상 만들어 나만의 광고 만들기 — toCatter
 
 ---
-
+## 최종 영상 파일 정보
 [toCatter.mp4](./toCatter.mp4)
 -파일명: toCatter.mp4
 -길이: 10초
 -해상도: 1920 x 1080p
 -프레임레이트: 30fps
--코덱:H.264 / ACC
+-코덱:H.264 / AAC
 
 ---
 ## 프롬프트 정리
@@ -25,7 +25,7 @@
 
 ##편집
 
-CapCut을 이용하였으며, 불필요한 부분 음소거, 음성과 영상파일의 절단과 이어붙이기등의 기능만 이용하였고 기존소스에 새로운 요소를 넣지
+CapCut을 이용하였으며, 불필요한 부분 음소거, 음성과 영상파일의 절단과 이어붙이기등의 기능만 이용하였고 기존소스에 새로운 요소를 넣지 않았습니다.
 
 ---
 
@@ -43,7 +43,7 @@ CapCut을 이용하였으며, 불필요한 부분 음소거, 음성과 영상파
 - **타겟**: 반려묘를 가족 구성원으로 여기는 반료동물가구
 - **톤앤매너**: 귀여움과 유머러스함
 - **USP**: 많은 것을 함께 하는 반려 고양이에게 음료형 간식을 제공함으로서, 음료수를 마시며 즐거운 시간을 보내는 경험을 공유
-- **핵심 메시지**: "고양이도 가족이니까"
+- **목적/핵심 메시지**: "고양이도 가족이니까"
 
 # 사용 도구 목록
 
@@ -86,6 +86,17 @@ CapCut을 이용하였으며, 불필요한 부분 음소거, 음성과 영상파
 hyperrealistic photograph of an anthropomorphic ragdoll cat standing upright on two legs, gray bicolor coat with soft gray markings on the head and ears, creamy white face blaze, chest, arms and paws in uniform solid cream white, long fluffy silky fur, striking blue eyes, pink nose, wearing blue denim overalls, alert curious expression looking at camera, natural relaxed posture with weight on one leg and one paw slightly raised, full body, plain light gray studio background, soft warm natural lighting, shot on 85mm lens, shallow depth of field, cinematic advertising photography --ar 3:4 --style raw --stylize 130 --weird 0
 ```
 
+- --ar 3:4 : 씬이 아니라 캐릭터 시트이므로 세로 비율을 선택했습니다. 전신 직립 자세를
+  잘림 없이 담아야 이후 oref 참조 시 몸 전체의 비율 정보가 보존됩니다.
+- --raw : Midjourney의 자동 미화를 억제합니다. 미화가 적용되면 털 질감이 인형처럼
+  균일해져 실사 가족과 합성했을 때 이질감이 생깁니다.
+- --stylize 130 : 기본값(100)보다 약간만 높여 광고용 조명감을 얻되, 프롬프트에 명시한
+  털 색 배치(회색 바이컬러 + 크림색 팔)를 재해석하지 않도록 낮은 범위를 유지했습니다.
+- --weird 0 : 상업 광고에서 변형은 리스크입니다. 4개 씬에서 반복 등장할 캐릭터이므로
+  변형 가능성을 0으로 두었습니다.
+- 배경을 plain light gray studio로 지정한 이유 : oref 소스는 캐릭터만 담겨야 이후 씬에서
+  배경 요소가 함께 딸려오는 것을 막을 수 있습니다.
+
 ## 가족들
 
 ![asset_img_family_01](./asset_img/asset_img_family_01.png)
@@ -104,6 +115,14 @@ hyperrealistic photograph of an anthropomorphic ragdoll cat standing upright on 
 photorealistic candid family portrait, American family of three in a bright modern living room, father in his late 30s wearing a casual navy sweater, mother in her mid 30s wearing a beige cardigan, 7 year old boy in a striped t-shirt, cinematic advertising photography, soft warm key light, shallow depth of field
 --ar 3:2  --raw  --stylize 120 
 ```
+
+- --ar 3:2 : 3인을 한 프레임에 담되 인물 얼굴이 충분히 크게 잡히는 비율입니다.
+  얼굴 픽셀이 클수록 이후 oref 참조의 정확도가 올라갑니다.
+- --stylize 120 : 고양이 에셋(130)과 근접한 값으로 맞춰, 두 에셋을 한 화면에 합성했을 때
+  질감·조명 처리 방식이 어긋나지 않도록 했습니다.
+- 3명을 개별 생성하지 않고 가족사진 1장으로 동시 확보한 이유 : 개별 생성 시
+  "같은 가족처럼 보이지 않는" 문제가 생기고 참조 이미지도 3개로 늘어납니다.
+  1장으로 고정하면 참조가 하나이므로 이후 모든 씬에서 동일 인물이 유지됩니다.
 
 ## 로고
 
@@ -211,7 +230,7 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 
 ![scene_img_family_02_01](./scene_img/scene_img_family_02_01.png)
 
-- **길이**: 3초
+- **길이**: 4초
 - **목표 메시지**: 음료를 함께하는 가족의 모습을 통해 음료가 가정에서 가지는 공유의 가치를 부각한다.
 - **화면 구성**: 소파에 함께 앉은, 아빠·엄마·아들이 각자 다른 음료를 마심. 세 명이 한 프레임에 자연스럽게 배치.
 - **나레이션**: ["가족들이 모이면 모두 좋아하는 음료수를 함께 즐기죠 - 중년 남성 asset_voice_01"](./scene_nar/scene_nar_family_01.wav)
@@ -228,7 +247,7 @@ upbeat country advertising jingle, 100 BPM, acoustic guitar strumming, banjo, li
 
 도구:미드저니
 
-asset_img_family_01.png를 기반으로 아래 프롬프트 입력 ow를 도입하여 
+asset_img_family_01.png를 기반으로 아래 프롬프트 입력 캐릭터 일관성을 위해 ow에 100을 넣고 시험해 보았습니다.
 
 ![asset_img_family_01](./asset_img/asset_img_family_01.png)
 
@@ -240,8 +259,17 @@ photorealistic candid living room scene, American family of three relaxing on a 
 
 ![scene_img_family_01](./scene_img/scene_img_family_01.png)
 
+- --ar 16:9 : 이 시점부터는 캐릭터 시트가 아니라 영상에 들어갈 씬이므로,
+  최종 출력 비율과 일치시켜 후속 크롭에서 화질 손실이 생기지 않게 했습니다.
+- --ow 100 : Omni Reference 강도. 초기값으로 중간 수준을 선택했습니다.
+  참조를 지나치게 강하게 걸면 원본 사진의 포즈(정면 응시 기념사진 구도)까지
+  따라오기 때문에, 얼굴만 가져오고 동작은 프롬프트로 새로 지시하려는 의도였습니다.
+- 이전 시도에서 --sref(Style Reference)를 사용했으나, sref는 색감·조명뿐 아니라
+  구도까지 전이시켜 인물이 카메라를 보고 웃는 기념사진 구도가 재현되었습니다.
+  인물 동일성은 sref가 아니라 oref의 역할이므로 파라미터를 교체했습니다.
+
 - **이미지 출력 결과 요약**:구도등은 원하는 이미지에 근사하나  일관성이 조금 부족한 이미지, 테이블위가 난잡하여 영상 일관성에 지장
-- **이미지 결과 파일명**:[asset_img_family_01.png](./scene_img/asset_img_family_01.png)
+- **이미지 결과 파일명**:[scene_img_family_01.png](./scene_img/scene_img_family_01.png)
 
 
 
@@ -249,7 +277,7 @@ photorealistic candid living room scene, American family of three relaxing on a 
 
 #### 수정프롬프트
 
-파라메터: ar 3:2  raw  stylize 120 weird 0 ow 400
+파라메터: ar 16:9  raw  stylize 120 weird 0 ow 400
 
 ```
 photorealistic candid living room scene, American family of three relaxing on a long beige sectional sofa that extends to the right side of the frame, low wooden coffee table running parallel along the full width of the frame, completely bare polished tabletop with nothing placed on it, empty sofa seat and empty table space to the right of the father, mother on the left lifting a tall clear glass of iced coffee to her lips mid-sip, young boy with shaggy brown hair and freckles in the middle tilting a red soda can up to his mouth drinking, father on the right drinking from a white ceramic mug, each person holding exactly one drink and nothing else, all three looking away from the camera in different directions, unposed natural moment, wide medium shot, warm golden afternoon light through the window, cinematic advertising photography, shot on 50mm lens
@@ -257,6 +285,21 @@ photorealistic candid living room scene, American family of three relaxing on a 
 ``` 
 
 ![scene_img_family_02](./scene_img/scene_img_family_02.png)
+
+- --ow 100 → 400 : 아동 캐릭터의 얼굴 유사도가 가장 낮게 나오는 문제가 반복되어
+  참조 강도를 상향했습니다. 성인 얼굴은 100에서도 유지되었으나 아동은 특징점이
+  적어 낮은 강도에서 다른 인물로 생성되는 경향이 있었습니다.
+- 400을 선택한 이유 : ow는 값이 높을수록 참조 이미지의 포즈까지 끌고 오는 부작용이
+  있으므로, 프롬프트에 "mid-sip", "looking away from the camera in different directions",
+  "unposed natural moment"를 명시해 동작을 별도로 고정한 뒤 강도를 올렸습니다.
+  즉 파라미터 상향과 프롬프트 보강을 동시에 적용해 부작용을 상쇄했습니다.
+- 프롬프트 측 수정 : 테이블 정리를 --no(부정 지시) 대신
+  "completely bare polished tabletop with nothing placed on it"이라는 긍정 상태 서술로
+  처리했습니다. Midjourney에서 --no는 위치 조건("테이블 위")을 해석하지 못하고
+  화면 전체에서 해당 요소를 제거하려 하기 때문에, 인물이 든 음료까지 영향을 받습니다.
+- 프롬프트 측 수정 : "empty sofa seat and empty table space to the right of the father"로
+  빈 공간을 명시했습니다. 이는 다음 씬에서 고양이가 등장할 자리를 미리 확보하기 위한
+  구도 설계입니다.
 
 - **이미지 출력 결과 요약**:구도등은 원하는 이미지에 근사하나  일관성이 조금 부족한 이미지, 테이블위가 난잡하여 영상 일관성에 지장
 - **이미지 결과 파일명**:[scene_img_family_02](./scene_img/scene_img_family_02.png)
@@ -287,6 +330,25 @@ The camera pans slightly to the right, cropping the mother's left arm at the edg
 Then the camera pans back to the left and gradually widens, revealing an anthropomorphic ragdoll cat in denim overalls sitting on the sofa beside the mother.
  Smooth continuous camera movement, warm golden afternoon light.
 ```
+
+- mode 1080p : 전 클립을 동일 해상도로 통일했습니다. 소스 이미지들은 생성·편집 과정에서
+  해상도가 제각각이었으나, Kling 출력 단계에서 1080p로 재렌더링되므로
+  이 지점이 해상도 통일의 기준점이 됩니다.
+- Length 3s : 10초 4컷 구조에서 컷당 실사용 길이에 맞춰 최소 길이를 선택했습니다.
+  생성 길이가 길어질수록 Kling이 남는 시간을 채우기 위해 지시하지 않은 움직임을
+  만들어내며, 이때 컵·캔 같은 정지 사물이 변형되는 현상이 발생했습니다.
+- Number of Outputs 1 : 크레딧 절약. 이미지 단계에서 구도를 확정했기 때문에
+  복수 출력 중 선택할 필요가 낮았습니다.
+- Native Audio off : 오디오 생성은 크레딧 소모가 크고, 나레이션·효과음·BGM은
+  각각 전용 도구(ElevenLabs, Suno)로 제작하므로 불필요합니다.
+  단, 립싱크가 필요한 씬 2의 대사 클립에서만 on으로 전환했습니다.
+- start frame만 지정하고 end frame을 비운 경우 : 시작·끝 프레임의 출처가 다르면
+  두 프레임 사이의 사물 배치 차이를 Kling이 보간하면서 없던 유리잔이 생성되거나
+  컵이 이동하는 아티팩트가 발생합니다. 목표 프레임이 없으면 보간 대상이 사라지므로
+  사물이 고정됩니다.
+- start/end를 모두 지정한 경우 : 다음 컷과의 연결이 필요한 구간에서만 사용했으며,
+  이때는 두 프레임을 반드시 동일한 원본에서 파생시켜 사물 배치를 일치시켰습니다.
+  
 - **출력 결과 요약**:  가족들이 음료수를 마시는 장면부터 시작하여 내려놓는 장면이 담김
 - **결과 파일명**:[scene_vid_scene1_01.mp4](./scene_vid/scene_vid_scene1_01.mp4)
 
@@ -484,6 +546,14 @@ The cat tilts its head to one side with a questioning expression and says, "나�
 The family stay seated and still. The glass, the red can, and the white mug stay exactly where they are on the table. Warm golden afternoon light.
 ```
 
+- Native Audio on : 이 클립에서만 활성화했습니다. 립싱크는 오디오 생성이 있어야
+  입 모양이 대사에 동기화되므로, 보너스 과제(립싱크) 달성을 위한 필수 설정입니다.
+- 대사를 따옴표로 감싼 이유 : Kling은 따옴표 안의 문자열을 발화 내용으로 해석합니다.
+  따옴표 없이 서술하면 대사가 아니라 장면 묘사로 처리됩니다.
+- 생성된 음성을 그대로 쓰지 않은 이유 : 립싱크 타이밍은 정확했으나 음색이
+  캐릭터에 맞지 않았습니다. 그러나 음성을 새로 만들면 입 모양과 어긋나므로,
+  타이밍은 보존하고 음색만 교체하는 Voice Change(STS)를 선택했습니다.
+
 - **비디오 출력 결과 요약**:고양이 목소리가 자체 더빙되어 이후 교체할 수 있는 고양이가 클로즈업 되면서 말하는 장면
 - **비디오 결과 파일명**:[scene_vid_scene2closeUp_01.mp4](./scene_vid/scene_vid_scene2closeUp_01.mp4)
 
@@ -663,7 +733,7 @@ sound that can be heard by speaker when disk scratch by dj
 
 ### 캔안의 음료가 찰랑 거리는 소리
 ```
-sound that can be heard by speaker when disk scratch by dj
+Gentle fizzing and sloshing of liquid inside a metal can.
 ```
 
 - **출력 결과 요약**: 음료를 따르기 전 캔안의 음료가 찰랑거리는 소리
@@ -672,7 +742,7 @@ sound that can be heard by speaker when disk scratch by dj
 ### 음료 따르는 소리
 
 ```
-sound that can be heard by speaker when disk scratch by dj
+liquid pouring steadily into a ceramic bowl
 ```
 
 - **출력 결과 요약**:음료를 따를 때 나는 소리
@@ -723,6 +793,21 @@ Claude를 이용하여 2초 짜리 음성을 7초로 늘리고
 스타일 0%
 
 화자 증폭 활성화됨
+
+- 모델 Eleven Multilingual v2 : 대사가 한국어이므로 다국어 모델이 필요합니다.
+- 속도 1 : 원본 립싱크 영상의 입 모양과 길이를 맞춰야 하므로 배속 변경은 불가합니다.
+- 안정성 50% : 낮추면 표현이 풍부해지지만 발음이 흔들리고, 높이면 억양이 평탄해집니다.
+  0.5초짜리 짧은 대사에서 발음이 뭉개지면 "나는?"이 인식되지 않으므로 중간값을 선택했습니다.
+- 유사성 향상 75% : 목표 캐릭터 보이스(asset_voice_02)의 음색을 강하게 반영하기 위해
+  높게 설정했습니다. Voice Change의 목적 자체가 음색 교체이므로 이 값이 핵심입니다.
+- 스타일 0% : 스타일 과장은 원본의 억양을 재해석합니다. 이 작업의 전제는
+  "원본의 타이밍과 억양을 유지"하는 것이므로 0으로 두었습니다.
+- 화자 증폭 활성화 : 원본이 영상에서 추출된 음원이라 배경음이 섞여 있어,
+  화자 특성을 강조해 배경 성분의 영향을 줄였습니다.
+- 입력을 7초로 늘린 이유 : Voice Change가 5초 이상의 입력을 요구합니다.
+  대사 핵심 구간만 잘라 0.55초 여백을 두고 5회 반복했습니다. 여백 없이 이어 붙이면
+  하나의 긴 발화로 인식되어 변환이 뭉개지고, 여백을 두면 5회 각각이 독립 변환되어
+  결과적으로 5개의 후보 중 가장 좋은 것을 선택할 수 있습니다.
 
 **출력 결과 요약**: 고양이 캐릭터 목소리로 변환된 원본 대사파일
 **결과 파일명**: [scene_nar_mine_01.wav](./scene_nar/scene_nar_mine_01.wav)
