@@ -253,11 +253,13 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 - **출력 결과 요약**:
 - **결과 파일명**:
 
+## 씬 3 (해결 — 따라준다)
+
 ![scene_img_fmaily_02_09](./scene_img/scene_img_family_02_09.png)
 
 ![scene_img_family_02_13](./scene_img/scene_img_family_02_13.png)
 
-## 씬 3 (해결 — 따라준다)
+
 - **길이**: 3초
 - **목표 메시지**:제품이 등장하고 문제를 해결 제품의 소요 가치를 전달한다.
 - **화면 구성**: 클로즈업. 사람 손이 toCatter 캔을 기울여 고양이 물그릇에 따름. 프레임 안에 손·캔·그릇만 (캔 라벨이 정면으로 읽혀야 함). 옆쪽에 고양이가 지켜보는 얼굴 일부
