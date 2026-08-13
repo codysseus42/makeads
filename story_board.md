@@ -282,7 +282,9 @@ The red can and the white ceramic mug stay exactly as they are.
 Add a white ceramic pet bowl on the table to the left of the three drinks, so all four containers are lined up in a row. Keep the warm golden lighting and the 16:9 aspect ratio.
 ```
 ![scene_img_familly_02_09](./scene_img/scene_img_family_02_09.png)
+
 이후 claude로 제미나이 로고 크롭
+ 
 ![scene_img_family_02_10](./scene_img/scene_img_family_02_10.png)
 
 ## 편집프롬프트 2
@@ -314,7 +316,9 @@ Edit this image only. Make these three changes:
 Keep the can's label, cat logo, "toCatter" text, and "cat together" text exactly as they are — fully legible, in sharp focus, and facing the camera. Keep the pale green liquid pouring into the bowl, the warm golden lighting, and the 16:9 aspect ratio.
 ```
 ![scene_img_family_02_12](./asset_img/scene_img_family_02_12.png)
+
 이후 claude를 통해서 로고 크롭
+
 ![scene_img_family_02_13](./asset_img/scene_img_family_02_13.png)
 
 - **비디오 프롬프트**: `liquid pours steadily from the can into the bowl, hand remains steady, cat's face enters frame from the side watching, minimal camera movement`
