@@ -489,7 +489,7 @@ The camera moves in smoothly toward the cat. The cat tilts its head to one side 
 	-나레이션/대사: elevenlabs
 	-오디오: suno(bgm),elevenlabs(효과음)
 - **출력(편집) 결과 요약**: 음료수가 등장하면서  따라지고 브랜드 로고가 
-- **결과 파일명**: [scene_vid_scene3_01.mp4.](./story_board.md#프롬프트-7)/[scene_img_fmaily_02_10.png](./story_board.md#편집프롬프트-1-1)/[scene_img_family_02_13.png](./story_board.md#편집프롬프트-2)/[scene_nar_catFamily_01.wav](./story_board.md#씬-3-전환--해결제안--따라준다)/[scene_nar_tocatter_01.wav](.story_board.md/#씬-3-전환--해결제안--따라준다)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_snd_fiz_01.wav](./story_board.md#캔안의-음료가-찰랑-거리는-소리)/[scene_snd_pour_01.wav](./story_board.md#음료-따르는-소리)
+- **결과 파일명**: [scene_vid_scene3_01.mp4.](./story_board.md#프롬프트-7)/[scene_img_fmaily_02_10.png](./story_board.md#편집프롬프트-1-1)/[scene_img_family_02_13.png](./story_board.md#편집프롬프트-2)/[scene_nar_catFamily_01.wav](./story_board.md#씬-3-전환--해결제안--따라준다)/[scene_nar_tocatter_01.wav](.story_board.md#씬-3-전환--해결제안--따라준다)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_snd_fiz_01.wav](./story_board.md#캔안의-음료가-찰랑-거리는-소리)/[scene_snd_pour_01.wav](./story_board.md#음료-따르는-소리)
 
 ### 이미지 프롬프트
 
