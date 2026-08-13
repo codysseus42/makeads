@@ -12,13 +12,13 @@
 - 대사 프롬프트는 나레이션 내용 자체이며 결과파일은 나레이션에 바로 링크
 - 에셋을 그대로 사용한 부분들 에셋 참고
 - 장면별 결과파일은 생성 프롬프트 부분으로 이동 생성프롬프트 부분의 링크는 첨부 파일로 이동
-- 결과파일은 최종 생성물만 표시
+- 결과파일은 최종 생성물만 표시할 수 있다.
 
 ## 결과 파일명 기준
 	
 	 asset or scene_종류_설명_원본시도번호_수정번호
   
-  단, 프레임이나 스크린샷은 임의의 이름을 사용하거나 원본시도번호,수정번호를 가지지지 않음
+  단, 프레임이나 스크린샷, 추출 파일은 임의의 이름을 사용하거나 원본시도번호,수정번호를 가지지지 않음
   
 ---
 
@@ -465,7 +465,9 @@ end: ![scene_img_family_02_08](./scene_img/scene_img_family_02_08.png)
 
 
 ```
-The camera moves in smoothly toward the cat. The cat tilts its head to one side with a questioning expression and says, "나는?" The family stay seated and still. The glass, the red can, and the white mug stay exactly where they are on the table. Warm golden afternoon light.
+The camera moves in smoothly toward the cat.
+The cat tilts its head to one side with a questioning expression and says, "나는?" 
+The family stay seated and still. The glass, the red can, and the white mug stay exactly where they are on the table. Warm golden afternoon light.
 ```
 
 - **비디오 출력 결과 요약**:고양이 목소리가 자체 더빙되어 이후 교체할 수 있는 고양이가 클로즈업 되면서 말하는 장면
@@ -488,7 +490,7 @@ The camera moves in smoothly toward the cat. The cat tilts its head to one side 
 	-비디오: kling(영상생성)
 	-나레이션/대사: elevenlabs
 	-오디오: suno(bgm),elevenlabs(효과음)
-- **출력(편집) 결과 요약**: 음료수가 등장하면서  따라지고 브랜드 로고가 
+- **출력(편집) 결과 요약**: 음료수가 등장하면서 따라지고 브랜드 로고가 제품과 함께 들어나며 나레이션으로 핵심메시지와 제품명이 전달됨
 - **결과 파일명**: [scene_vid_scene3_01.mp4.](./story_board.md#프롬프트-7)/[scene_img_fmaily_02_10.png](./story_board.md#편집프롬프트-1-1)/[scene_img_family_02_13.png](./story_board.md#편집프롬프트-2)/[scene_nar_catFamily_01.wav](./story_board.md#씬-3-전환--해결제안--따라준다)/[scene_nar_tocatter_01.wav](./story_board.md#씬-3-전환--해결제안--따라준다)/[asset_bgm_01.mp3](./story_board.md#bgm)/[scene_snd_fiz_01.wav](./story_board.md#캔안의-음료가-찰랑-거리는-소리)/[scene_snd_pour_01.wav](./story_board.md#음료-따르는-소리)
 
 ### 이미지 프롬프트
@@ -663,5 +665,45 @@ sound that can be heard by speaker when disk scratch by dj
 - **결과 파일명**: [scene_snd_pour_01.wav](./scene_snd/scene_snd_pour_01.wav)
 
 # Bonus
+
+## 더빙
+
+자연스러운 더빙을 위해서 원본 장면2의 대사부부을 생성 할 때 [scene_vid_scene2closeUp_01.mp4](./story_board.md#프롬프트2-1)
+native audio를 on으로 하여 생성하고
+
+```
+ ...
+ The cat tilts its head to one side with a questioning expression and says, "나는?" 
+ ...
+```
+
+Claude를 사용하여 해당 대사가 있는 음성 파일을 추출하였습니다.
+[naneun_original.wav](./scene_extract/naneun_original.wav)
+
+이후 보이스 체인지를 할 수 있게 길이를 5초이상으로 요구하였기 떄문에 2초 짜리 음성을 7초로 늘리고
+Claude를 이용하여 [naneun_looped_7s.wav](./scene_extract/naneun_looped_7s.wav)
+
+해당값을 입력값으로 사용하여
+
+아래와 같은 설정으로 변화하여
+
+편집 과정에서 잘라내어 삽입하였습니다.
+
+입력
+ [naneun_looped_7s.wav](./scene_extract/naneun_looped_7s.wav)
+
+asset_voice_02
+설정
+음성 asset_voice_02
+모델 Eleven Multilingual v2
+속도 1
+안정성 50%
+유사성 향상 75%
+스타일 0%
+화자 증폭 활성화됨
+
+- **출력 결과 요약**: 고양이 캐릭터 목소리로 변환된 원본 대사파일
+- **결과 파일명**: [scene_nar_mine_01.wav](./scene_snd/scene_nar_mine_01.wav)
+
 
 
