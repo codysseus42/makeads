@@ -255,7 +255,7 @@ photorealistic close-up of an anthropomorphic ragdoll cat sitting beside a dinin
 
 ![scene_img_fmaily_02_09](./scene_img/scene_img_family_02_09.png)
 
-![scene_img_family_02_13](./asset_img/scene_img_family_02_13.png)
+![scene_img_family_02_13](./scene_img/scene_img_family_02_13.png)
 
 ## 씬 3 (해결 — 따라준다)
 - **길이**: 3초
@@ -291,7 +291,7 @@ Add a white ceramic pet bowl on the table to the left of the three drinks, so al
 
 asset_img_product_01_01.png를 편집하였습니다.
 
-![asset_img_product_01_01](./asset_img/asset_img_product_01_01.png)
+![asset_img_product_01_01](./scene_img/asset_img_product_01_01.png)
 ```
 ...
 Edit the image. Zoom in tightly on the white pet bowl so it fills the lower portion of the frame. The three other drinks are no longer in the shot — only the pet bowl remains on the wooden table. The background is a smooth warm blur with no people, furniture, or other objects visible.
@@ -304,7 +304,7 @@ Keep the wooden table surface, the warm golden lighting, and the 16:9 aspect rat
 
 ```
 
-![scene_img_family_02_11](./asset_img/scene_img_family_02_11.png)
+![scene_img_family_02_11](./scene_img/scene_img_family_02_11.png)
 
 ```
 Edit this image only. Make these three changes:
@@ -318,11 +318,11 @@ Edit this image only. Make these three changes:
 Keep the can's label, cat logo, "toCatter" text, and "cat together" text exactly as they are — fully legible, in sharp focus, and facing the camera. Keep the pale green liquid pouring into the bowl, the warm golden lighting, and the 16:9 aspect ratio.
 ```
 
-![scene_img_family_02_12](./asset_img/scene_img_family_02_12.png)
+![scene_img_family_02_12](./scene_img/scene_img_family_02_12.png)
 
 이후 claude를 통해서 로고 크롭
 
-![scene_img_family_02_13](./asset_img/scene_img_family_02_13.png)
+![scene_img_family_02_13](./scene_img/scene_img_family_02_13.png)
 
 - **비디오 프롬프트**: `liquid pours steadily from the can into the bowl, hand remains steady, cat's face enters frame from the side watching, minimal camera movement`
 - **출력 결과 요약**:
