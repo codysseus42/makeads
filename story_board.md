@@ -306,21 +306,21 @@ scene_img_family_02_01.png에 asset_img_cat_01를 첨부하여 편집하였습�
 Create a new scene from this living room image that you just made. The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row. The family members have set their drinks down. Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. There is empty table space in front of the cat with nothing on it. Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. Match the warm golden afternoon lighting and add a soft shadow.
 ```
 
-![scene_img_family_02_02](./asset_img/scene_img_family_02_02.png)
+![scene_img_family_02_02](./scene_img/scene_img_family_02_02.png)
 
 ```
 Do it again I will give you all the sources. Cat is too small and have to sit next to family. And color of the woman’s drink has changed match it to the original.
 Now read the dirction carefully
 Create a new scene from this living room image that you just made. The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row. The family members have set their drinks down. Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. There is empty table space in front of the cat with nothing on it. Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. Match the warm golden afternoon lighting and add a soft shadow.
 ```
-![scene_img_family_02_03](./asset_img/scene_img_family_02_03.png)
+![scene_img_family_02_03](./scene_img/scene_img_family_02_03.png)
 
 ```
 Do it again I will give you all the sources. Cat is too small and have to sit next to family. And color of the woman’s drink has changed match it to the original.
 Now read the dirction carefully
 Create a new scene from this living room image that you just made. The three drinks — the tall glass of iced coffee, the white ceramic mug, and the plain red soda can — are now placed on the wooden coffee table in a row. The family members have set their drinks down. Add the cat that I gave you sitting upright on the sofa to the left of the mother, head tilted to one side with a questioning expression, looking toward the family on its right. There is empty table space in front of the cat with nothing on it. Keep the cat's fur pattern, denim overalls, and proportions exactly as in the reference image. Match the warm golden afternoon lighting and add a soft shadow.
 ```
-![scene_img_family_02_04](./asset_img/scene_img_family_02_04.png)
+![scene_img_family_02_04](./scene_img/scene_img_family_02_04.png)
 
 ```
 Refine this image with these corrections. Keep the original 16:9 widescreen aspect ratio and the exact same framing and camera position.
@@ -335,7 +335,7 @@ Refine this image with these corrections. Keep the original 16:9 widescreen aspe
 
 5. Keep everything else unchanged — the family's poses and faces, the sofa, the table, the mug, the red can, and the lighting.
 ```
-![scene_img_family_02_05](./asset_img/scene_img_family_02_05.png)
+![scene_img_family_02_05](./scene_img/scene_img_family_02_05.png)
 
 ```
 Edit this image only. Make these three changes:
@@ -349,11 +349,11 @@ Edit this image only. Make these three changes:
 Keep everything else in the image exactly as it is — the cat's pose and size, the family's faces and poses, the sofa, the table, the mug, the red can, and the lighting. Do not change the composition or the aspect ratio.
 ```
 
-![scene_img_family_02_06](./asset_img/scene_img_family_02_06.png)
+![scene_img_family_02_06](./scene_img/scene_img_family_02_06.png)
 
 이후 씬 1의 프레임중 스크린샷을 통해서 컵의 방향을 수정
 
-![cuppont](./screenshot/cuppoint.png)
+![cuppont](./scene_img/cuppoint.png)
 
 ```
 Edit this image only. Make these two changes:
@@ -365,7 +365,7 @@ Edit this image only. Make these two changes:
 Keep everything else exactly as it is — the cat's pose and size, the family's poses and faces, the sofa, the table, the red can, and the lighting.
 ```
 
-![scene_img_family_02_07](./asset_img/scene_img_family_02_07.png)
+![scene_img_family_02_07](./scene_img/scene_img_family_02_07.png)
 
 이후 claude로 제미나이 로고 크롭
  
